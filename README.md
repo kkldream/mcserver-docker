@@ -1,30 +1,29 @@
-# Ubuntu 18.04 + Java 17
+# Ubuntu 18.04 + Java 8
 
 ## 環境
 
 * Ubuntu 18.04
-* Java 17.0.4
+* Java 1.8.0_312
 
 ```log
-root@c7169d525d6f:/# java -version
-java version "17.0.4" 2022-07-19 LTS
-Java(TM) SE Runtime Environment (build 17.0.4+11-LTS-179)
-Java HotSpot(TM) 64-Bit Server VM (build 17.0.4+11-LTS-179, mixed mode, sharing)
+root@3140ed9d8c23:/# java -version
+openjdk version "1.8.0_312"
+OpenJDK Runtime Environment (build 1.8.0_312-8u312-b07-0ubuntu1~18.04-b07)
+OpenJDK 64-Bit Server VM (build 25.312-b07, mixed mode)
 ```
 
 ## 執行容器
 
 ```sh
-docker run --rm --name java17 -it -p 20022:22 kkldream/mcserver:java17
+docker run --rm --name java8 -it -p 20022:22 kkldream/mcserver:java8
 ```
 
 ## 進入容器
 
 從終端機:  
 ```sh
-docker exec -it java17 bash
+docker exec -it java8 bash
 ```
-
 
 從SSH連入:    
 * 帳號: root
@@ -33,5 +32,5 @@ docker exec -it java17 bash
 ## 自行編譯
 
 ```cmd
-docker build -t kkldream/mcserver:java17 .
+docker build -t kkldream/mcserver:java8 .
 ```

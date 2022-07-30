@@ -10,12 +10,8 @@ RUN apt install -y openssh-server && \
     echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 EXPOSE 22
 
-# Java 17
-RUN wget https://download.oracle.com/java/17/archive/jdk-17.0.4_linux-x64_bin.tar.gz && \
-    tar zxvf jdk-17.0.4_linux-x64_bin.tar.gz && \
-    rm jdk-17.0.4_linux-x64_bin.tar.gz && \
-    echo "export JAVA_HOME=/jdk-17.0.4" >> ~/.bashrc && \
-    echo "export PATH=$PATH:/jdk-17.0.4/bin" >> ~/.bashrc
+# Java 8
+RUN apt install -y openjdk-8-jdk
 
 # Tools
 RUN apt install -y nano net-tools iputils-ping screen
