@@ -2,7 +2,8 @@
 
 ## Java環境
 
-* [Java 17.0.4](https://github.com/kkldream/mcserver-docker/tree/java17)
+* [Java 8](https://github.com/kkldream/mcserver-docker/tree/java8)
+* [Java 17](https://github.com/kkldream/mcserver-docker/tree/java17)
 
 ## 整合包伺服器
 
