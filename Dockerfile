@@ -20,6 +20,15 @@ RUN wget https://download.oracle.com/java/17/archive/jdk-17.0.4_linux-x64_bin.ta
 # Tools
 RUN apt install -y nano net-tools iputils-ping screen
 
+# CAB
+COPY server /root/server
+VOLUME [ \
+    "/root/server/world", \
+    "/root/server/server.properties", \
+    "/root/server/logs" ]
+EXPOSE 25565
+
 # Startup
 COPY ./startup.sh /root/startup.sh
+WORKDIR "/root/server"
 CMD ["sh", "/root/startup.sh"]
