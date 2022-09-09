@@ -1,4 +1,4 @@
-# 1.19.1 Server
+# 1.19.2 Server
 
 ## 執行容器
 
@@ -7,19 +7,19 @@
 Windows:  
 ```cmd
 docker run --name mc -d -it -p 20022:22 -p 25565:25565 ^
-    -v %cd%/data/1.19.1/world:/root/server/world ^
-    -v %cd%/data/1.19.1/server.properties:/root/server/server.properties ^
-    -v %cd%/data/1.19.1/logs:/root/server/logs ^
-    kkldream/mcserver:1.19.1
+    -v %cd%/data/1.19.2/world:/root/server/world ^
+    -v %cd%/data/1.19.2/server.properties:/root/server/server.properties ^
+    -v %cd%/data/1.19.2/logs:/root/server/logs ^
+    kkldream/mcserver:1.19.2
 ```
 
 Linux:  
 ```sh
 docker run --name mc -d -it -p 20022:22 -p 25565:25565 \
-    -v $PWD/data/1.19.1/world:/root/server/world \
-    -v $PWD/data/1.19.1/server.properties:/root/server/server.properties \
-    -v $PWD/data/1.19.1/logs:/root/server/logs \
-    kkldream/mcserver:1.19.1
+    -v $PWD/data/1.19.2/world:/root/server/world \
+    -v $PWD/data/1.19.2/server.properties:/root/server/server.properties \
+    -v $PWD/data/1.19.2/logs:/root/server/logs \
+    kkldream/mcserver:1.19.2
 ```
 
 路徑說明:
@@ -50,7 +50,7 @@ screen -r
 ## 自行編譯
 
 ```cmd
-docker build -t kkldream/mcserver:1.19.1 .
+docker build -t kkldream/mcserver:1.19.2 .
 ```
 
 ## 錯誤訊息
