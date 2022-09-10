@@ -9,20 +9,20 @@
 Windows:  
 ```cmd
 docker run --name cab -d -it -p 20065:22 -p 25565:25565 ^
-    -v %cd%/data/world:/root/server/world ^
-    -v %cd%/data/server.properties:/root/server/server.properties ^
-    -v %cd%/data/logs:/root/server/logs ^
-    -v %cd%/data/backups:/root/server/backups ^
+    -v %cd%/data/cab/world:/root/server/world ^
+    -v %cd%/data/cab/server.properties:/root/server/server.properties ^
+    -v %cd%/data/cab/logs:/root/server/logs ^
+    -v %cd%/data/cab/backups:/root/server/backups ^
     kkldream/mcserver:cab1.3
 ```
 
 Linux:  
 ```sh
 docker run --name cab -d -it -p 20065:22 -p 25565:25565 \
-    -v $PWD/data/world:/root/server/world \
-    -v $PWD/data/server.properties:/root/server/server.properties \
-    -v $PWD/data/logs:/root/server/logs \
-    -v $PWD/data/backups:/root/server/backups \
+    -v $PWD/data/cab/world:/root/server/world \
+    -v $PWD/data/cab/server.properties:/root/server/server.properties \
+    -v $PWD/data/cab/logs:/root/server/logs \
+    -v $PWD/data/cab/backups:/root/server/backups \
     kkldream/mcserver:cab1.3
 ```
 

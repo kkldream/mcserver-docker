@@ -30,4 +30,5 @@ EXPOSE 25565
 
 # Startup
 COPY ./startup.sh /root/startup.sh
+WORKDIR /root/server
 CMD ["sh", "/root/startup.sh"]
