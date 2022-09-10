@@ -13,7 +13,7 @@ docker run --name cab -d -it -p 20065:22 -p 25565:25565 ^
     -v %cd%/data/cab/server.properties:/root/server/server.properties ^
     -v %cd%/data/cab/logs:/root/server/logs ^
     -v %cd%/data/cab/backups:/root/server/backups ^
-    kkldream/mcserver:cab1.3
+    kkldream/mcserver:cab1.3-mods
 ```
 
 Linux:  
@@ -23,7 +23,7 @@ docker run --name cab -d -it -p 20065:22 -p 25565:25565 \
     -v $PWD/data/cab/server.properties:/root/server/server.properties \
     -v $PWD/data/cab/logs:/root/server/logs \
     -v $PWD/data/cab/backups:/root/server/backups \
-    kkldream/mcserver:cab1.3
+    kkldream/mcserver:cab1.3-mods
 ```
 
 路徑說明:
@@ -54,5 +54,5 @@ screen -r
 [Java SE Development Kit 8u301 Download](https://www.oracle.com/tw/java/technologies/javase/javase8u211-later-archive-downloads.html#:~:text=8u301%2Dlinux%2Dx64.rpm-,Linux%20x64%20Compressed%20Archive,jdk%2D8u301%2Dlinux%2Dx64.tar.gz,-macOS%20x64%20DMG%20Installer)
 
 ```cmd
-docker build -t kkldream/mcserver:cab1.3 .
+docker build -t kkldream/mcserver:cab1.3-mods .
 ```
