@@ -3,21 +3,21 @@
 	group: ""
 	order_index: 0
 	filename: "welcome"
-	title: "Welcome"
+	title: "歡迎"
 	icon: "biomesoplenty:wildflower"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Limitless Potential"
+			title: "無限的潛力"
 			icon: "minecraft:gold_ore"
 			disable_toast: true
 			x: -3.5d
 			y: -5.0d
 			shape: "hexagon"
 			description: [
-				"This pack is for you."
-				"We hope you'll have a good time with it."
+				"本模組包是專屬為你打造的。"
+				"我們由衷地期望你可以與之共度美好時光。"
 				""
 			]
 			size: 2.0d
@@ -40,16 +40,16 @@
 			]
 		}
 		{
-			title: "Completely Optional"
+			title: "完全可選的"
 			icon: "minecraft:grass_block"
 			disable_toast: true
 			x: -3.5d
 			y: -2.5d
 			shape: "hexagon"
 			description: [
-				"The Questing system helps you with the primary customisations of the Modpack: &3Trades&r and the &6Progression of Tech&r"
+				"任務系統可以幫助你探索模組包自訂的主要內容： &3貿易&r 及 &6科技發展&r"
 				""
-				"Completing Quests is not required to progress through the game."
+				"完成任務並不要求要在遊戲中取得進展。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["09356B3BEF298E06"]
@@ -68,9 +68,9 @@
 			y: -1.0d
 			shape: "hexagon"
 			description: [
-				"Modpack Description:"
-				"The sandbox has been turned upside down - be ready to invent your best Create Contraptions yet. "
-				"&7(Or the first, if you are that brave!)"
+				"模組包說明："
+				"你所熟知的沙盒遊戲已經被顛覆了 - 準備好發明你最棒的動力機械設備了嗎。"
+				"&7（但首先，你要擁有那股勇氣！）"
 			]
 			dependencies: ["69D55492A8F42A94"]
 			size: 1.5d
@@ -93,9 +93,9 @@
 			y: 0.5d
 			shape: "hexagon"
 			description: [
-				"About fifty inventions lie between you and the moon. "
+				"在你成功登陸月球前，會需要研發出約略 50 種的發明。"
 				""
-				"Thousands of components will flow through the ever-growing sequence of your machines, providing the means to explore the next level of technology. "
+				"數以千計的原料、零件將在你逐漸發展的機械序列中流動，而這些零件將會引導你探索下一階段的科技。"
 			]
 			dependencies: ["407236D2B1D2257D"]
 			size: 1.5d
@@ -118,9 +118,9 @@
 			y: 1.0d
 			shape: "hexagon"
 			description: [
-				"Your entire factory will be put to the test as final products flow into the Data Centre, programming the Guidance computer of your Spaceship."
+				"隨著最終產品流入資料中心，要為你太空船的導航電腦進行程式設計，你的整個工廠將會面臨種種考驗。"
 				""
-				"Every step is different, some may even differ depending on the generation seed of your World."
+				"每一個步驟都相當艱難，甚至還會根據你的世界生成種子而有所差異。"
 			]
 			dependencies: ["2C7ADB6C11B918B1"]
 			size: 1.5d
@@ -143,13 +143,13 @@
 			y: 0.5d
 			shape: "hexagon"
 			description: [
-				"Tired of the grind?"
+				"疲於勞動了嗎？"
 				""
-				"Fund the operation with coin provided either from various errands, or your chosen professions. "
+				"將你透過各種任務或是你選擇的職業所獲取的貨幣，投入到你的工作中。"
 				""
-				"Automatically ship produce from your farms or gather other players to aid you in your mission."
+				"自動化從你的農場運送產品，或是召集其他玩家來幫助你完成任務。"
 				""
-				"Then you can purchase all manner of resources, artifacts and building blocks from the market, making your life just a little bit easier."
+				"然後你可以從市場那裡採買到各種資源、人工製品和建築方塊，使你的生活稍微輕鬆一些。"
 			]
 			dependencies: ["1947C6CE179EBAC6"]
 			size: 1.5d
@@ -165,7 +165,7 @@
 			}]
 		}
 		{
-			title: "Quest Content Overwiew"
+			title: "任務內容簡介"
 			icon: {
 				id: "occultism:book_of_calling_djinni_manage_machine"
 				Count: 1b
@@ -178,18 +178,18 @@
 			y: -1.5d
 			shape: "hexagon"
 			description: [
-				"- &6The Bulletin Board&r provides means to earn currency for Trading."
-				"Here you can complete various errands or buy a profession permit for use in the Trading Machine."
+				"- &6告示板&r 提供你賺取交易貨幣的手段。"
+				"在這裡，你可以完成各式各樣的任務或是購買交易機器所會用到的職業許可證。"
 				""
-				"- &6The Market&r gives you options to spend your money on a variety of fun and useful items and gadgets."
+				"- &6市場&r 讓你可以選擇把錢花費在各種有趣且實用的物品和小工具上。"
 				""
-				"- &6Shipments&r are the Automated way to exchange coin for resources. Here you can buy Import Cards for use in the Trading Machine."
+				"- &6貨物進口&r 是一種可以自動化透過貨幣交換資源的方式。你可以在這裡購買交易機器所會用到的進口許可證。"
 				""
-				"- The &3Factory Guide&r provides useful information for the path of Technology and Automation. All challenges to be overcome have been neatly organised into chapters and tasks. It is entirely optional to follow this Guide."
+				"- &3工廠指南&r 提供你科技線和自動化相關的資訊。所有需要克服的挑戰都透過章節和任務的方式彙整了起來。但是否要按照任務進度發展則是要由你自行決定。"
 				""
-				"- The Section on &3Metallurgy&r gives an overview of the ways to turn your ore into refined metal. Different paths yield differently."
+				"- &3金屬冶煉&r 概述了將你身上的礦物轉變成精煉金屬的方法。不同的產線將產生不一樣的結果。"
 				""
-				"- &3Lifesavers&r brings a spotlight to all those little utilities that can help you overcome the challenges set before you."
+				"- &3生活救星&r 帶來了許多能夠陪伴你克服面前挑戰的小工具。"
 			]
 			dependencies: ["58E38BA6D927409F"]
 			size: 1.5d
@@ -205,13 +205,13 @@
 			}]
 		}
 		{
-			title: "Off you go"
+			title: "啟程"
 			icon: "minecraft:gold_block"
 			disable_toast: true
 			x: 2.0d
 			y: -1.5d
 			shape: "hexagon"
-			description: ["Now that you have an idea of what is new and what is not, settle in and start your Journey."]
+			description: ["現在你已經知道了哪些內容是新的而哪些又不是，趕緊安頓下來並開始你的旅程吧。"]
 			dependencies: ["00003FCBB33E62C4"]
 			size: 2.0d
 			id: "31EDFA6D2FF86CB0"

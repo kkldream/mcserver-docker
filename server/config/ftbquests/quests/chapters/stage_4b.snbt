@@ -3,23 +3,23 @@
 	group: "331B6409EF6A7840"
 	order_index: 5
 	filename: "stage_4b"
-	title: "&f4a&r Chaotic Alchemy"
+	title: "&f4a&r 混沌煉金術"
 	icon: "kubejs:substrate_chaos"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Another way forward"
+			title: "另一條前進的道路"
 			icon: "kubejs:inductive_mechanism"
 			x: 1.75d
 			y: 2.0d
 			shape: "hexagon"
 			description: [
-				"As an alternative, more risky approach to a refined Silicon resource, Laser Alchemy can provide an obscure yet rewarding new path of progression."
+				"精煉矽的方法中，有另一種更具風險的替代方案，煉金雷射還潛藏著未知但對我們有益的發展途徑。"
 				""
-				"Discover the secret codes of each reagent class in order to learn about the recipe of Chaos Catalysts."
+				"我們要試圖從每種類別試劑上的密碼中，探索出混沌催化劑的配方。"
 				""
-				"Once found, the Chaos Catalyst can not only transmute a material into Silicon, but potentially create other valuable resources from the most trivial ingredients!"
+				"一旦找到了那禁忌的配方，我們不僅可以將一種材料轉化成矽，還可以透過那些不重要的材料創造出其他充滿價值的資源。"
 			]
 			dependencies: ["5DF206B1738D08A0"]
 			hide: true
@@ -36,18 +36,18 @@
 			}]
 		}
 		{
-			title: "Encapsulate - Decapsulate"
+			title: "封裝 - 拆裝"
 			x: -0.25d
 			y: 2.0d
 			shape: "circle"
 			description: [
-				"Aside from the Alchemical Laser setup, you'll need a few other Machines for your new Alchemy Lab. "
+				"除了煉金雷射設備外，你還需要額外為你的新煉金實驗室建置一些機器。"
 				""
-				"- The Fluid Encapsulator uses Molten Glass to create Reagents from resources."
+				"- 流體灌裝機可以使用熔融玻璃和一些資源來創造出試劑。"
 				""
-				"- The Reagent Extractor can reverse this process."
+				"- 試劑提取器則是可以逆轉這個過程。"
 				""
-				"- The Centrifugal Separator is required to analyse alchemical blends for clues. A vital routine when researching the recipe of Catalysts."
+				"- 離心分離機可以分析出煉金化合物上的線索，這是在研究催化劑配方時最重要的一環。"
 			]
 			dependencies: ["05446225038D260A"]
 			id: "42B615F7BECA6E58"
@@ -545,9 +545,9 @@
 			y: 7.0d
 			shape: "circle"
 			description: [
-				"If this is Unlocked, you have gathered all reagents of the Igneous Category."
+				"如果這項任務解鎖了，表示你已經收集齊所有種類的火成岩試劑。"
 				""
-				"The Igneous Catalyst can be created by a combination of four reagents of this Category in the Alchemical Laser. &7(See the Catalyst's JEI entry for more information)"
+				"火成岩催化劑需要先在漏斗礦車上排好四罐火成岩試劑的排列組合，並打入煉金雷射後製作而成。&7（欲知詳情請查閱催化劑的 JEI）"
 				""
 				"It's recommended to always take notes of previous results. This way it is not uncommon to find the solution in under six attempts!"
 			]
@@ -573,9 +573,9 @@
 			y: 6.5d
 			shape: "circle"
 			description: [
-				"If this is Unlocked, you have gathered all reagents of the Herbal Category."
+				"如果這項任務解鎖了，表示你已經收集齊所有種類的草本試劑。"
 				""
-				"The Herbal Catalyst can be created by a combination of four reagents of this Category in the Alchemical Laser. &7(See the Catalyst's JEI entry for more information)"
+				"草本催化劑需要先在漏斗礦車上排好四罐草本試劑的排列組合，並打入煉金雷射後製作而成。&7（欲知詳情請查閱催化劑的 JEI）"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -599,9 +599,9 @@
 			y: 6.25d
 			shape: "circle"
 			description: [
-				"If this is Unlocked, you have gathered all reagents of the Volatile Category."
+				"如果這項任務解鎖了，表示你已經收集齊所有種類的揮發試劑。"
 				""
-				"The Volatile Catalyst can be created by a combination of four reagents of this Category in the Alchemical Laser. &7(See the Catalyst's JEI entry for more information)"
+				"揮發催化劑需要先在漏斗礦車上排好四罐揮發試劑的排列組合，並打入煉金雷射後製作而成。&7（欲知詳情請查閱催化劑的 JEI）"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -625,9 +625,9 @@
 			y: 6.25d
 			shape: "circle"
 			description: [
-				"If this is Unlocked, you have gathered all reagents of the Crystalline Category."
+				"如果這項任務解鎖了，表示你已經收集齊所有種類的結晶試劑。"
 				""
-				"The Crystalline Catalyst can be created by a combination of four reagents of this Category in the Alchemical Laser. &7(See the Catalyst's JEI entry for more information)"
+				"結晶催化劑需要先在漏斗礦車上排好四罐結晶試劑的排列組合，並打入煉金雷射後製作而成。&7（欲知詳情請查閱催化劑的 JEI）"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -651,9 +651,9 @@
 			y: 6.5d
 			shape: "circle"
 			description: [
-				"If this is Unlocked, you have gathered all reagents of the Metallurgic Category."
+				"如果這項任務解鎖了，表示你已經收集齊所有種類的冶金試劑。"
 				""
-				"The Metallurgic Catalyst can be created by a combination of four reagents of this Category in the Alchemical Laser. &7(See the Catalyst's JEI entry for more information)"
+				"冶金催化劑需要先在漏斗礦車上排好四罐冶金試劑的排列組合，並打入煉金雷射後製作而成。&7（欲知詳情請查閱催化劑的 JEI）"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -677,9 +677,9 @@
 			y: 7.0d
 			shape: "circle"
 			description: [
-				"If this is Unlocked, you have gathered all reagents of the Gemstone Category."
+				"如果這項任務解鎖了，表示你已經收集齊所有種類的寶石試劑。"
 				""
-				"The Gemstone Catalyst can be created by a combination of four reagents of this Category in the Alchemical Laser. &7(See the Catalyst's JEI entry for more information)"
+				"寶石催化劑需要先在漏斗礦車上排好四罐寶石試劑的排列組合，並打入煉金雷射後製作而成。&7（欲知詳情請查閱催化劑的 JEI）"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -699,15 +699,15 @@
 			}]
 		}
 		{
-			title: "The Final Code"
+			title: "最終密碼"
 			x: 1.75d
 			y: 7.5d
 			shape: "circle"
 			description: [
-				"If this is Unlocked, you have gathered Catalysts of every Category."
+				"如果這項任務解鎖了，表示你已經收集齊所有種類的催化劑。"
 				""
-				"This Ultimate Catalyst is now a combination of four of the Catalysts, much in the way the Catalysts are found and made by their Reagents."
-				"&7(See this item's JEI entry for more information)"
+				"這個終極催化劑由四罐催化劑排列組合而成，就如同你從試劑的排列組合中製造出催化劑的方式一樣。"
+				"&7（欲知詳情請查閱催化劑的 JEI）"
 			]
 			dependencies: [
 				"3EB5CD9776DF0E63"
@@ -726,16 +726,16 @@
 			}]
 		}
 		{
-			title: "The Discovery"
+			title: "探索"
 			x: 1.0d
 			y: 8.5d
 			shape: "circle"
 			description: [
-				"Armed with the Chaos Catalyst, you will find all manner of transmutation pairs among the Reagents above."
+				"有了混沌催化劑，你可以從上面的試劑研究出它們個別對應的轉化物質。"
 				""
-				"Simply put the Chaos Catalyst and a few jars of one reagent (The transmutation is lossy) into the hopper cart and find a different reagent returned after activating the laser. Mind that the Catalyst is never consumed in the process."
+				"將混沌催化劑和幾罐相同的試劑（轉化過程會伴隨著一些損失）放入漏斗礦車中，並打入煉金雷射後就會產生出一種不同的試劑。混沌催化劑在這轉化過程中是不會被消耗的。"
 				""
-				"One of the Reagents should lead not to another known one, but to the Reagent of Silicon. If this turns out to be one that is reasonably accessible, you can consider choosing this path of production over the main one."
+				"將其中一種試劑拿去煉金轉化後，將是會產生出矽試劑而不是其他已知的試劑。如果矽試劑的轉化材料取得途徑，對於你來說是值得且合理的話，那麼你可以考慮選擇走這條生產途徑。"
 			]
 			dependencies: ["7A9AA27029185035"]
 			id: "6FDC8DA2FDED5FDD"
@@ -747,17 +747,17 @@
 			}]
 		}
 		{
-			title: "The Alchemical Laser"
+			title: "煉金雷射"
 			icon: "projectred-illumination:lime_inverted_cage_light"
 			x: 3.75d
 			y: 2.0d
 			shape: "circle"
 			description: [
-				"A central role in your Laboratory is played by the Alchemical Laser."
+				"在你的實驗室中，煉金雷射扮演著重要的角色。"
 				""
-				"The Laser is the only way to obtain Catalysts or to find the necessary clues toward their recipe. Another use is the actual application of the Chaos Catalyst to a specific Reagent, causing the Transmutation."
+				"雷射是取得催化劑或找到其配方所需線索的唯一途徑。另一個用途是將混沌催化劑實際應用在煉金轉化上。"
 				""
-				"Inventors can familiarise themselves with the necessary machinery components via JEI or via entering"
+				"發明家們可以透過 JEI 進入 Ponder 介面熟悉煉金雷射整套設備的運作方式。或是你也可以使用以下指令："
 				""
 				" &6/c ponder kubejs:alchemical_laser"
 			]
@@ -770,7 +770,7 @@
 			rewards: [{
 				id: "5F8758212BE89602"
 				type: "command"
-				title: "Open Ponder Scene"
+				title: "開啟 Ponder 場景"
 				icon: {
 					id: "occultism:book_of_calling_djinni_manage_machine"
 					Count: 1b
@@ -784,31 +784,31 @@
 			}]
 		}
 		{
-			title: "Automatic Chaos"
+			title: "自動化混沌轉化"
 			icon: "minecraft:hopper_minecart"
 			x: 2.5d
 			y: 9.0d
-			subtitle: "Contraption 31-A"
+			subtitle: "裝置 31-A"
 			description: [
-				"With the transmutation recipe in hand, it is time to build a facility able to create an infinite amount of Silicon Reagent via Laser Alchemy and the other steps part of the process."
+				"有了轉化配方在手，現在是時候建置一座能透過煉金雷射生產出無限量矽試劑的自動化工廠。"
 				""
-				"Note that the concete solution depends highly on the transmutation pairings of your World, which is why it cannot be laid out in this Guide. You can use JEI to find other necessary recipes leading up to the reagent you require."
+				"由於生產矽試劑的原料會依據世界種子的不同而有所差異，故無法在本指南中列出。你可以使用 JEI 查詢其他你所需要的配方，來達成你要的目的。"
 			]
 			dependencies: ["6FDC8DA2FDED5FDD"]
 			id: "630DA0C83959E9D8"
 			tasks: [{
 				id: "3E080B5561AD314E"
 				type: "checkmark"
-				title: "Automated"
+				title: "已自動化"
 			}]
 		}
 		{
-			title: "Warp Zone"
+			title: "扭曲空間"
 			icon: "create:warped_window_pane"
 			x: 1.75d
 			y: 11.0d
 			shape: "hexagon"
-			description: ["Now that you have a passive supply of Silicon Reagent, you may head over to the main section of Chapter 4. You will have opened up an entry point near the end of its recipe chain."]
+			description: ["現在你已經有了矽試劑的被動供應鏈，你可以回頭繼續進行第四章的主要作業。你將在該章節的任務線尾端開啟一道入口。"]
 			dependencies: ["630DA0C83959E9D8"]
 			size: 2.0d
 			id: "3B431AAADE8845FA"
@@ -818,14 +818,14 @@
 			}]
 		}
 		{
-			title: "Clueless"
+			title: "無名小卒"
 			x: -6.5d
 			y: 5.0d
 			shape: "circle"
 			description: [
-				"Glowstone or Redstone Accelerator can optionally be placed in the fifth slot of the Hopper Minecart when entering a catalyst code."
+				"在你嘗試探索出催化劑的排列組合密碼時，可以選擇將螢光石或紅石促進劑放入漏斗礦車的第五個欄位中。"
 				""
-				"This may reveal additional information about the correct combination as described in their tooltip."
+				"這可能會揭示有關正確排列組合的額外資訊，就如同它工具提示上所述的那樣。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["05446225038D260A"]
@@ -850,7 +850,7 @@
 			x: 10.0d
 			y: 5.0d
 			shape: "circle"
-			description: ["Your coins seem to have a corresponding Reagent, too. Though do not expect to be able to mint new currency out of your silver ingots."]
+			description: ["你的貨幣似乎也能用來製作成試劑。但不要指望你的銀幣能夠鑄造成新的貨幣。"]
 			hide_dependency_lines: true
 			dependencies: ["05446225038D260A"]
 			id: "566E72AE7D580917"

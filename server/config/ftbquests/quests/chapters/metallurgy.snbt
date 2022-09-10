@@ -3,21 +3,21 @@
 	group: "331B6409EF6A7840"
 	order_index: 7
 	filename: "metallurgy"
-	title: " Metallurgy"
+	title: " 金屬冶煉"
 	icon: "thermal:silver_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Build-a-Processing:"
+			title: "建立一個礦物處理產線"
 			icon: "minecraft:gold_ore"
 			x: -9.0d
 			y: -4.0d
 			shape: "circle"
 			description: [
-				"A simple Overview of most options to process your way from Ore to Ingot."
+				"概述了幾種將礦石處理成金屬錠的常見方式"
 				""
-				"For every path through this graph, the effective yield per ore can be estimated by multiplying the ratio of each included step."
+				"你可以透過本頁流程圖每一條路徑的倍率，來估算出每塊礦石的有效產量。"
 			]
 			id: "6B03056FA21424C0"
 			tasks: [{
@@ -26,7 +26,7 @@
 			}]
 		}
 		{
-			title: "Mining Tool"
+			title: "挖掘工具"
 			icon: {
 				id: "minecraft:iron_pickaxe"
 				Count: 1b
@@ -36,7 +36,7 @@
 			}
 			x: -7.0d
 			y: -3.0d
-			subtitle: "1 to 1"
+			subtitle: "1 -> 1"
 			dependencies: ["6B03056FA21424C0"]
 			id: "7967324CAC77AF60"
 			tasks: [{
@@ -45,7 +45,7 @@
 			}]
 		}
 		{
-			title: "I: Crushed"
+			title: "I： 粉碎礦石"
 			icon: "create:crushed_gold_ore"
 			x: -9.0d
 			y: -2.0d
@@ -62,7 +62,7 @@
 			}]
 		}
 		{
-			title: "Fortune"
+			title: "幸運"
 			icon: {
 				id: "minecraft:golden_pickaxe"
 				Count: 1b
@@ -76,7 +76,7 @@
 			}
 			x: -5.0d
 			y: -3.0d
-			subtitle: "1 to 1-2"
+			subtitle: "1 -> 1-2"
 			dependencies: ["6B03056FA21424C0"]
 			id: "005F2C4E203E7E62"
 			tasks: [{
@@ -85,11 +85,11 @@
 			}]
 		}
 		{
-			title: "Pulverizing"
+			title: "磨粉"
 			icon: "thermal:machine_pulverizer"
 			x: -3.0d
 			y: -1.0d
-			subtitle: "1 to 6"
+			subtitle: "1 -> 6"
 			dependencies: ["612100C7C6E0A7C9"]
 			id: "623EE1E0678E4F2A"
 			tasks: [{
@@ -98,7 +98,7 @@
 			}]
 		}
 		{
-			title: "II: Dust"
+			title: "II： 金屬粉"
 			icon: "thermal:gold_dust"
 			x: -9.0d
 			y: 0.0d
@@ -116,12 +116,12 @@
 			}]
 		}
 		{
-			title: "IIIb: Liquid"
+			title: "IIIb： 熔融金屬"
 			icon: "tconstruct:molten_gold_bucket"
 			x: -8.5d
 			y: 2.0d
 			shape: "circle"
-			subtitle: "[in Nuggets]"
+			subtitle: "[金屬粒]"
 			dependencies: [
 				"18EDB4CD525CE110"
 				"715BBD0DF0136FF1"
@@ -135,7 +135,7 @@
 			}]
 		}
 		{
-			title: "IIIa: Nugget"
+			title: "IIIa： 金屬粒"
 			icon: "minecraft:gold_nugget"
 			x: -9.5d
 			y: 2.0d
@@ -154,11 +154,11 @@
 			}]
 		}
 		{
-			title: "Smelting"
+			title: "熔煉"
 			icon: "minecraft:furnace"
 			x: -11.0d
 			y: -1.0d
-			subtitle: "1 to 3"
+			subtitle: "1 -> 3"
 			dependencies: ["612100C7C6E0A7C9"]
 			id: "21E76761CD3761C2"
 			tasks: [{
@@ -167,11 +167,11 @@
 			}]
 		}
 		{
-			title: "Crushing"
+			title: "粉碎"
 			icon: "create:crushing_wheel"
 			x: -5.0d
 			y: -1.0d
-			subtitle: "1 to 3-6"
+			subtitle: "1 -> 3-6"
 			dependencies: ["612100C7C6E0A7C9"]
 			id: "352F5F851045653A"
 			tasks: [{
@@ -180,11 +180,11 @@
 			}]
 		}
 		{
-			title: "Milling"
+			title: "研磨"
 			icon: "create:millstone"
 			x: -7.0d
 			y: -1.0d
-			subtitle: "1 to 3"
+			subtitle: "1 -> 3"
 			dependencies: ["612100C7C6E0A7C9"]
 			id: "3A81BC460AF1756D"
 			tasks: [{
@@ -193,11 +193,11 @@
 			}]
 		}
 		{
-			title: "Superheated Mixing"
+			title: "超級加熱混合攪拌"
 			icon: "create:mechanical_mixer"
 			x: -3.0d
 			y: 1.0d
-			subtitle: "1 to 6"
+			subtitle: "1 -> 6"
 			dependencies: ["07BE7128982202A7"]
 			dependency_requirement: "one_completed"
 			id: "18EDB4CD525CE110"
@@ -207,11 +207,11 @@
 			}]
 		}
 		{
-			title: "Compacting by Press"
+			title: "自動打包"
 			icon: "create:mechanical_press"
 			x: -11.0d
 			y: 3.0d
-			subtitle: "9 to 1"
+			subtitle: "9 -> 1"
 			dependencies: ["29DABB5FDE6356E9"]
 			id: "1250AE58911C27A9"
 			tasks: [{
@@ -220,11 +220,11 @@
 			}]
 		}
 		{
-			title: "Induction Smelting"
+			title: "感應熔煉"
 			icon: "thermal:machine_smelter"
 			x: -13.0d
 			y: -1.0d
-			subtitle: "1 to 9-27"
+			subtitle: "1 -> 9-27"
 			dependencies: ["612100C7C6E0A7C9"]
 			dependency_requirement: "one_completed"
 			id: "5FCCD2F720115D41"
@@ -234,11 +234,11 @@
 			}]
 		}
 		{
-			title: "Melting"
+			title: "熔融"
 			icon: "tconstruct:smeltery_controller"
 			x: -7.0d
 			y: 1.0d
-			subtitle: "1 to 3"
+			subtitle: "1 -> 3"
 			dependencies: ["07BE7128982202A7"]
 			id: "715BBD0DF0136FF1"
 			tasks: [{
@@ -247,7 +247,7 @@
 			}]
 		}
 		{
-			title: "IV: Ingot"
+			title: "IV： 金屬錠"
 			icon: "minecraft:gold_ingot"
 			x: -9.0d
 			y: 4.0d
@@ -265,11 +265,11 @@
 			}]
 		}
 		{
-			title: "Ingot Casting"
+			title: "冷卻成型"
 			icon: "tconstruct:seared_table"
 			x: -7.0d
 			y: 3.0d
-			subtitle: "9 to 1"
+			subtitle: "9 -> 1"
 			dependencies: ["6509024553997AB0"]
 			id: "1A5A81CA749DAB2A"
 			tasks: [{
@@ -278,11 +278,11 @@
 			}]
 		}
 		{
-			title: "Compacting by Drawer"
+			title: "抽屜打包"
 			icon: "storagedrawers:compacting_drawers_3"
 			x: -13.0d
 			y: 3.0d
-			subtitle: "9 to 1"
+			subtitle: "9 -> 1"
 			dependencies: ["29DABB5FDE6356E9"]
 			id: "746F9F4F21D8400D"
 			tasks: [{
@@ -291,11 +291,11 @@
 			}]
 		}
 		{
-			title: "Smelting Dust"
+			title: "熔煉金屬粉"
 			icon: "minecraft:furnace"
 			x: -13.0d
 			y: 1.0d
-			subtitle: "1 to 1"
+			subtitle: "1 -> 1"
 			dependencies: ["07BE7128982202A7"]
 			id: "171A0F26C6608E83"
 			tasks: [{
@@ -304,11 +304,11 @@
 			}]
 		}
 		{
-			title: "Washing"
+			title: "洗滌"
 			icon: "create:encased_fan"
 			x: -15.0d
 			y: 1.0d
-			subtitle: "1 to 2"
+			subtitle: "1 -> 2"
 			dependencies: ["07BE7128982202A7"]
 			id: "2C2E304910D7F33D"
 			tasks: [{
@@ -317,11 +317,11 @@
 			}]
 		}
 		{
-			title: "Foundry Melting"
+			title: "熔鑄"
 			icon: "tconstruct:foundry_controller"
 			x: -5.0d
 			y: 1.0d
-			subtitle: "1 to 3"
+			subtitle: "1 -> 3"
 			dependencies: ["07BE7128982202A7"]
 			id: "409A50CBCDBBA1F0"
 			tasks: [{

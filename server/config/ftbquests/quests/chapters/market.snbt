@@ -3,18 +3,18 @@
 	group: "0810E42B2DD79973"
 	order_index: 1
 	filename: "market"
-	title: "&a The Market"
+	title: "&a 市場"
 	icon: "minecraft:chest"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Sleepless"
+			title: "無法入睡"
 			icon: "minecraft:cyan_bed"
 			x: -9.5d
 			y: -1.5d
-			subtitle: "10 Silver"
-			description: ["Your last resort in case the sundown beat you to it."]
+			subtitle: "10 枚銀幣"
+			description: ["你的最後手段，以防日落擊敗你。"]
 			id: "5D17CB247942013A"
 			tasks: [{
 				id: "0783860FB502A201"
@@ -30,12 +30,12 @@
 			}]
 		}
 		{
-			title: "Fortress Locator"
+			title: "要塞定位器"
 			icon: "create:blaze_burner"
 			x: -7.5d
 			y: 0.5d
-			subtitle: "2 Gold"
-			description: ["Aimlessly traversing the nether is just the worst. This wonderful gadget will point you in the correct direction at all times."]
+			subtitle: "2 枚金幣"
+			description: ["漫無目的的在地獄中遊走是很危險的。有了這個神奇小工具，它將會無時無刻地指引你走向正確的方向。"]
 			id: "252B9DD5BFB8184A"
 			tasks: [{
 				id: "5345AA8760A95127"
@@ -57,7 +57,7 @@
 			}]
 		}
 		{
-			title: "Saw everything"
+			title: "鋸掉一切"
 			icon: {
 				id: "cb_microblock:diamond_saw"
 				Count: 1b
@@ -75,8 +75,8 @@
 			}
 			x: -8.5d
 			y: -6.5d
-			subtitle: "5 Gold"
-			description: ["Buy this relic to minimise the Tool Maintenance in the assembly of &6Kinetic Mechanisms&r."]
+			subtitle: "5 枚金幣"
+			description: ["購買這件聖物是為了在組裝&6動力構件&r時，能夠最少化工具維護上的作業量。"]
 			hide_dependency_lines: true
 			id: "4F953BACF4D1C151"
 			tasks: [
@@ -114,8 +114,8 @@
 							id: "minecraft:unbreaking"
 						}]
 						display: {
-							Lore: ["{\"text\":\"Do not use in manual crafting\"}"]
-							Name: "{\"text\":\"Enchanted Saw\",\"color\":\"gold\",\"italic\":false}"
+							Lore: ["{\"text\":\"請不要用於手工合成\"}"]
+							Name: "{\"text\":\"被施加附魔的手鋸\",\"color\":\"gold\",\"italic\":false}"
 						}
 						Damage: 0
 					}
@@ -123,7 +123,7 @@
 			}]
 		}
 		{
-			title: "Never Screwed"
+			title: "從未擰緊"
 			icon: {
 				id: "projectred-core:screwdriver"
 				Count: 1b
@@ -137,8 +137,8 @@
 			}
 			x: -7.0d
 			y: -6.5d
-			subtitle: "5 Gold"
-			description: ["Buy this relic to minimise the Tool Maintenance in the assembly of &6Precision Mechanisms&r."]
+			subtitle: "5 枚金幣"
+			description: ["購買這件聖物是為了在組裝&6精密構件&r時，能夠最少化工具維護上的作業量。"]
 			id: "72CACE8F0E4701B1"
 			tasks: [
 				{
@@ -175,14 +175,14 @@
 							id: "minecraft:unbreaking"
 						}]
 						display: {
-							Name: "{\"text\":\"Enchanted Screwdriver\",\"color\":\"gold\",\"italic\":false}"
+							Name: "{\"text\":\"被施加附魔的螺絲起子\",\"color\":\"gold\",\"italic\":false}"
 						}
 					}
 				}
 			}]
 		}
 		{
-			title: "Magnetic Energetic"
+			title: "磁性能量"
 			icon: {
 				id: "kubejs:chromatic_resonator"
 				Count: 1b
@@ -196,8 +196,8 @@
 			}
 			x: -5.0d
 			y: -6.5d
-			subtitle: "7 Gold"
-			description: ["Buy this relic to minimise the Tool Maintenance in the assembly of &6Inductive Mechanisms&r."]
+			subtitle: "7 枚金幣"
+			description: ["購買這件聖物是為了在組裝&6感應構件&r時，能夠最少化工具維護上的作業量。"]
 			id: "43FC566E833BE834"
 			tasks: [
 				{
@@ -234,22 +234,22 @@
 							id: "minecraft:unbreaking"
 						}]
 						display: {
-							Name: "{\"text\":\"Enchanted Resonator\",\"color\":\"gold\",\"italic\":false}"
+							Name: "{\"text\":\"被施加附魔的諧振器\",\"color\":\"gold\",\"italic\":false}"
 						}
 					}
 				}
 			}]
 		}
 		{
-			title: "The Market"
+			title: "市場"
 			icon: "minecraft:chest"
 			x: -6.0d
 			y: -4.0d
 			shape: "hexagon"
 			description: [
-				"&6The Market&r gives you options to spend your money on a variety of fun and useful items and gadgets."
+				"&6市場&r 讓你可以選擇把錢花費在各種有趣且實用的物品和小工具上。"
 				""
-				"Have a look around. I'm sure you'll find something of use."
+				"請四處逛逛。我相信你會找到些對你而言有用的東西。"
 			]
 			size: 2.0d
 			id: "0F870BEA235D662D"
@@ -259,13 +259,13 @@
 			}]
 		}
 		{
-			title: "Manual Exchange"
+			title: "人工兌幣"
 			icon: { id: "thermal:silver_coin", Count: 16b }
 			x: -4.0d
 			y: -4.0d
 			shape: "circle"
-			subtitle: "Gold -> Silver"
-			description: ["Here you can exchange a Gold Coin back to a Stack of Silver."]
+			subtitle: "金幣 -> 銀幣"
+			description: ["在這裡你可以將金幣兌換回一組銀幣。"]
 			dependencies: ["0F870BEA235D662D"]
 			id: "5326F6482C45D22A"
 			tasks: [{
@@ -285,7 +285,7 @@
 				{
 					id: "6FA6A9A201CA27BE"
 					type: "custom"
-					title: "Repeatable"
+					title: "重複性任務"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -293,13 +293,13 @@
 			]
 		}
 		{
-			title: "Manual Exchange"
+			title: "人工兌幣"
 			icon: { id: "thermal:gold_coin", Count: 2b }
 			x: -8.0d
 			y: -4.0d
 			shape: "circle"
-			subtitle: "Silver -> Gold"
-			description: ["Some trades require you to hand in Gold Coins. These are worth a stack of Silver each."]
+			subtitle: "銀幣 -> 金幣"
+			description: ["有些貿易可以會需要你支付金幣。這些金幣每一枚都價值一組銀幣。"]
 			dependencies: ["0F870BEA235D662D"]
 			id: "1A566C74B1F7F050"
 			tasks: [{
@@ -319,7 +319,7 @@
 				{
 					id: "6E78A95786CA5B28"
 					type: "custom"
-					title: "Repeatable"
+					title: "重複性任務"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -327,12 +327,12 @@
 			]
 		}
 		{
-			title: "Corporate Dinner"
+			title: "公司晚宴"
 			icon: "farmersdelight:steak_and_potatoes"
 			x: -8.0d
 			y: -2.0d
-			subtitle: "10 Silver"
-			description: ["Sometimes you have to treat yourself and the co-workers to a nice meal."]
+			subtitle: "10 枚銀幣"
+			description: ["有時你必須請你和你的同事吃一頓好的。"]
 			id: "09DC2E2BE2BE32F4"
 			tasks: [{
 				id: "6235F365D702DF2B"
@@ -375,12 +375,12 @@
 			]
 		}
 		{
-			title: "Landfill Pickup"
+			title: "垃圾掩埋場撿拾"
 			icon: "minecraft:dirt"
 			x: -6.0d
 			y: 0.0d
-			subtitle: "15 Silver"
-			description: ["Early on it might help to import some dirt for base building."]
+			subtitle: "15 枚銀幣"
+			description: ["在遊戲早期，進口一些泥土對於建造基地可能會有些幫助。"]
 			id: "4B01606CE7AF3121"
 			tasks: [{
 				id: "188BEC2BA245DB13"
@@ -411,7 +411,7 @@
 			]
 		}
 		{
-			title: "Test of Patience"
+			title: "耐心考驗"
 			icon: {
 				id: "minecraft:barrel"
 				Count: 1b
@@ -424,8 +424,8 @@
 			}
 			x: -9.0d
 			y: 0.0d
-			subtitle: "50 Silver"
-			description: ["This mysterious fellow is offering a puzzle box with seemingly endless layers of depth. As an expert you know that this can only be finite. But what will await you at the bottom?"]
+			subtitle: "50 枚銀幣"
+			description: ["這神秘的傢伙正提供一種似乎具有無窮深度的謎盒。但身為專家的你知道這是不可能的，究竟這盒子的最底部有什麼在等待著你呢？"]
 			id: "09EA580B3D32FEEB"
 			tasks: [{
 				id: "3EA558277444F605"
@@ -547,12 +547,12 @@
 			}]
 		}
 		{
-			title: "Enderpack"
+			title: "終界包包"
 			icon: "minecraft:shulker_box"
 			x: -4.5d
 			y: -0.5d
-			subtitle: "55 Silver"
-			description: ["It's like a backpack but classy."]
+			subtitle: "55 枚銀幣"
+			description: ["它用途就像是背包，但是更加優雅。"]
 			id: "4FD46F841CCD59F8"
 			tasks: [{
 				id: "709557A517B0143F"
@@ -580,7 +580,7 @@
 			]
 		}
 		{
-			title: "The Tinkerbox"
+			title: "工匠箱"
 			icon: {
 				id: "tconstruct:creative_slot"
 				Count: 1b
@@ -590,8 +590,8 @@
 			}
 			x: -2.5d
 			y: 1.5d
-			subtitle: "25 Silver"
-			description: ["\"I found this in an abandoned Workshop down the road; would you like to buy it?\""]
+			subtitle: "25 枚銀幣"
+			description: ["「我在路邊一個廢棄的工作室中找到了這個，你想要買回去嗎。」"]
 			id: "0CCF34BF1C5829AE"
 			tasks: [{
 				id: "32ACF7B1C0BD9D97"
@@ -624,7 +624,7 @@
 			icon: "minecraft:totem_of_undying"
 			x: -3.0d
 			y: 0.0d
-			subtitle: "60 Silver"
+			subtitle: "60 枚銀幣"
 			id: "6D9F2FBEB7CC5195"
 			tasks: [{
 				id: "165B9A886A26BCC8"
@@ -640,12 +640,12 @@
 			}]
 		}
 		{
-			title: "Where mob ?"
+			title: "生物在哪？"
 			icon: "create:haunted_bell"
 			x: -4.0d
 			y: 2.0d
-			subtitle: "45 Silver"
-			description: ["As seen on TV: This Magical Bell can detect unlit areas around it. Free shipping, bonus cursed campfire. What a Deal!"]
+			subtitle: "45 枚銀幣"
+			description: ["正如在電視上看到的：這神奇的鐘可以探測周圍亮度不足的地方。似乎還可以被某種受詛咒的營火給強化，還免運費。多麼划算啊！"]
 			id: "4B52A04818075900"
 			tasks: [{
 				id: "4FB1B4787D648565"
@@ -668,7 +668,7 @@
 			]
 		}
 		{
-			title: "Windows Update"
+			title: "Windows 更新"
 			icon: {
 				id: "kubejs:flash_drive"
 				Count: 1b
@@ -685,8 +685,8 @@
 			}
 			x: -3.5d
 			y: -6.5d
-			subtitle: "7 Gold"
-			description: ["Buy this relic to minimise the Tool Maintenance in the assembly of &6Calculation Mechanisms&r."]
+			subtitle: "7 枚金幣"
+			description: ["購買這件聖物是為了在組裝&6計算構件&r時，能夠最少化工具維護上的作業量。"]
 			id: "00D6DD6AE8E3C014"
 			tasks: [
 				{
@@ -723,19 +723,19 @@
 							id: "minecraft:unbreaking"
 						}]
 						display: {
-							Name: "{\"text\":\"Enchanted Flash Drive\",\"color\":\"gold\",\"italic\":false}"
+							Name: "{\"text\":\"被施加附魔的隨身碟\",\"color\":\"gold\",\"italic\":false}"
 						}
 					}
 				}
 			}]
 		}
 		{
-			title: "Press Express"
+			title: "新聞快報"
 			icon: "appliedenergistics2:silicon_press"
 			x: -1.0d
 			y: 2.0d
-			subtitle: "6 Gold"
-			description: ["True IT experts tend to avoid going outside much. Thankfully the necessary computer parts can now be delivered directly to their inventory!"]
+			subtitle: "6 枚金幣"
+			description: ["真正的IT專家都會避免經常外出。所幸必要的電腦元件現在都能夠宅配到府。"]
 			id: "4BAC95CCC72369AD"
 			tasks: [{
 				id: "3D328A6D69E64EDA"
@@ -752,12 +752,12 @@
 			}]
 		}
 		{
-			title: "Adopt a Duck"
+			title: "領養一隻鴨子"
 			icon: "minecraft:egg"
 			x: -11.0d
 			y: -2.0d
-			subtitle: "5 Silver"
-			description: ["Quack"]
+			subtitle: "5 枚銀幣"
+			description: ["呱呱"]
 			id: "6C00F2935F27C2AD"
 			tasks: [
 				{
@@ -783,7 +783,7 @@
 				{
 					id: "79C8307ED8450347"
 					type: "custom"
-					title: "Repeatable"
+					title: "重複性任務"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -791,12 +791,12 @@
 			]
 		}
 		{
-			title: "Expensive Hobby"
+			title: "昂貴的夥伴"
 			icon: "buddycards:mystery_pack"
 			x: 0.5d
 			y: 1.5d
-			subtitle: "2 Gold"
-			description: ["Ah the joy of gambling."]
+			subtitle: "2 枚金幣"
+			description: ["阿，博弈的快感。"]
 			id: "093FB7B7FEC6B886"
 			tasks: [{
 				id: "30B16CC21946FE8E"
@@ -815,7 +815,7 @@
 				{
 					id: "423CFA69329BD06E"
 					type: "custom"
-					title: "Repeatable"
+					title: "重複性任務"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"
@@ -823,12 +823,12 @@
 			]
 		}
 		{
-			title: "Playing with Fire"
+			title: "玩火必自焚"
 			icon: "thermal:explosive_grenade"
 			x: -12.5d
 			y: -1.5d
-			subtitle: "32 Silver"
-			description: ["A little testing selection of Thermal Weaponry."]
+			subtitle: "32 枚銀幣"
+			description: ["熱能武器的小測試。"]
 			id: "1CC29991D5F248CA"
 			tasks: [{
 				id: "2BF8F9E5070C6122"
@@ -865,11 +865,11 @@
 			]
 		}
 		{
-			title: "Gardener's Starter Pack"
+			title: "園藝師的新手禮包"
 			icon: "biomesoplenty:glowflower"
 			x: -2.5d
 			y: -1.5d
-			subtitle: "24 Silver"
+			subtitle: "24 枚銀幣"
 			id: "42384DE39AA48976"
 			tasks: [{
 				id: "05BB5DFA82280C0C"
@@ -912,11 +912,11 @@
 			]
 		}
 		{
-			title: "Painter's Starter Kit"
+			title: "繪師的入門工具"
 			icon: "minecraft:painting"
 			x: -9.5d
 			y: 1.5d
-			subtitle: "24 Silver"
+			subtitle: "24 枚銀幣"
 			id: "61B040CD0832EFC0"
 			tasks: [{
 				id: "6404722100F1DEF7"
@@ -977,11 +977,11 @@
 			]
 		}
 		{
-			title: "Railway Starter Pack"
+			title: "鐵路迷新手禮包"
 			icon: "minecraft:minecart"
 			x: -11.0d
 			y: 2.0d
-			subtitle: "24 Silver"
+			subtitle: "24 枚銀幣"
 			id: "117587D824D23D69"
 			tasks: [{
 				id: "06C835DB602D6F9F"
@@ -1024,11 +1024,11 @@
 			]
 		}
 		{
-			title: "Pet Owner's Starter Pack"
+			title: "寵物新手禮包"
 			icon: "minecraft:tropical_fish"
 			x: -13.0d
 			y: 0.0d
-			subtitle: "24 Silver"
+			subtitle: "24 枚銀幣"
 			id: "2D75D1864FB1EF75"
 			tasks: [{
 				id: "3AA788B63B6A73EF"
@@ -1070,12 +1070,12 @@
 			]
 		}
 		{
-			title: "Instant Aesthetics"
+			title: "及時美學"
 			icon: "minecraft:oak_leaves"
 			x: 1.0d
 			y: 0.0d
-			subtitle: "24 Silver"
-			description: ["Not too stoked with your facade? Not a problem! Foliage solves everything."]
+			subtitle: "24 枚銀幣"
+			description: ["對你的門面不太滿意嗎？沒問題！樹葉可以解決一切困擾。"]
 			id: "7D93DAB3E8ACF953"
 			tasks: [{
 				id: "06028A67C6DCCD00"
@@ -1124,11 +1124,11 @@
 			]
 		}
 		{
-			title: "No, not the bees!"
+			title: "不，不要是蜜蜂！"
 			icon: "minecraft:bee_nest"
 			x: -1.0d
 			y: -2.0d
-			subtitle: "48 Silver"
+			subtitle: "48 枚銀幣"
 			id: "003E0D1CE60B166A"
 			tasks: [
 				{
@@ -1141,7 +1141,7 @@
 				{
 					id: "3CCE09D1715B54C7"
 					type: "item"
-					title: "Any Flower"
+					title: "任意種類的花朵"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1169,7 +1169,7 @@
 				{
 					id: "6D5E00890DAB64DB"
 					type: "custom"
-					title: "Repeatable"
+					title: "重複性任務"
 					icon: "thermal:machine_cycle_augment"
 					tags: ["reset"]
 					auto: "no_toast"

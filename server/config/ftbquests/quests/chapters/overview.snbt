@@ -3,22 +3,22 @@
 	group: "331B6409EF6A7840"
 	order_index: 0
 	filename: "overview"
-	title: " Overview"
+	title: " 章節概要"
 	icon: "minecraft:oak_sapling"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Andesite Machinery"
+			title: "安山機械"
 			disable_toast: true
 			x: -10.0d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Milestone"
+			subtitle: "里程碑"
 			description: [
-				"With Kinetic Mechanisms automated, many new possibilities unfold. Most of Create's machinery can now be crafted without much hassle. The early game just got a bit less early!"
+				"隨著動力構件的自動化後，也跟著拓展了許多的可能性。動力機械中的絕大多數設備現在都能夠不費吹灰之力的製作出來！"
 				""
-				"You can now continue, or choose to spend some time in the bonus section of Chapter 1. After all, a stronger supply of Copper Machines will come to be quite useful, too!"
+				"你現在可以選擇朝向下一個章節邁進，或是選擇花些時間研究支線。畢竟由銅機械製作出來的道具將會更加地強大且實用！"
 			]
 			dependencies: [
 				"61147823CC87F711"
@@ -29,7 +29,7 @@
 			tasks: [{
 				id: "36F8C3CAF6FC3FB2"
 				type: "stat"
-				title: "Complete Chapter 1"
+				title: "完成章節 1"
 				icon: "kubejs:kinetic_mechanism"
 				disable_toast: true
 				stat: "minecraft:play_one_minute"
@@ -37,15 +37,15 @@
 			}]
 		}
 		{
-			title: "Brass Machinery"
+			title: "黃銅機械"
 			disable_toast: true
 			x: -7.0d
 			y: 0.0d
-			subtitle: "Milestone"
+			subtitle: "里程碑"
 			description: [
-				"With Precision Mechanisms automated, a large number of great tools become accessible. Both for automation and quality of life."
+				"隨著精密構件的自動化後，許多很棒的工具都變得更佳容易取得。可以用來幫助改善自動化和生活品質。"
 				""
-				"It also opens the gate leading towards the Invar Age- potentially after a quick stop by the bonus section.."
+				"同時也意味著你敞開了通往不變鋼時代的大門 - 雖然在那之前你可能會選擇先去解個支線..."
 			]
 			dependencies: [
 				"1E263994D4883A08"
@@ -55,7 +55,7 @@
 			tasks: [{
 				id: "0FF38BBE3B19D9C2"
 				type: "stat"
-				title: "Complete Chapter 2"
+				title: "完成章節 2"
 				icon: "create:precision_mechanism"
 				disable_toast: true
 				stat: "minecraft:play_one_minute"
@@ -63,15 +63,15 @@
 			}]
 		}
 		{
-			title: "Invar Machinery"
+			title: "不變鋼機械"
 			disable_toast: true
 			x: -4.0d
 			y: 0.0d
-			subtitle: "Milestone"
+			subtitle: "里程碑"
 			description: [
-				"A completely different age of Technology. Some machines are suddenly powered by some hardly observable magical energy."
+				"這是一個截然不同的科技時代。許多機器突然都以一種難以觀測到的神秘能量作為動力源。"
 				""
-				"The Launch feels very close now. While there still lie challenges ahead, the solution footprint will shrink again thanks to the new Appliances."
+				"現在離發射升空的日子不遠了。儘管前方還存在著不少挑戰，但多虧了最新科技，這些問題很快就能得到解決。"
 			]
 			dependencies: [
 				"780E8AE86250C73D"
@@ -81,7 +81,7 @@
 			tasks: [{
 				id: "7FEEF6BED2C3F31B"
 				type: "stat"
-				title: "Complete Chapter 3"
+				title: "完成章節 3"
 				icon: "kubejs:inductive_mechanism"
 				disable_toast: true
 				stat: "minecraft:play_one_minute"
@@ -89,15 +89,15 @@
 			}]
 		}
 		{
-			title: "Fluix Machinery"
+			title: "福魯伊克斯機械"
 			disable_toast: true
 			x: -1.0d
 			y: 0.0d
-			subtitle: "Milestone"
+			subtitle: "里程碑"
 			description: [
-				"With Calculation Mechanisms, the Factory enters the Digital Age. Instant Material-Energy conversion (ME) revolutionises item and fluid logistics for both the assembly lines and personal use."
+				"隨著計算構件的問世，工廠正式進入了數位時代。即時材料-能量轉換系統(ME)，徹底顛覆了以往流水線的物流方式。"
 				""
-				"At this point, all of the tools necessary to facilitate space travel have become accessible. Might as well start a countdown."
+				"到這裡，進行太空旅行所需的必要物品都已垂手可得。是時候來倒數計時了。"
 			]
 			min_required_dependencies: 3
 			dependencies: [
@@ -111,7 +111,7 @@
 			tasks: [{
 				id: "79AB928A6C8E21DA"
 				type: "stat"
-				title: "Complete Chapter 4"
+				title: "完成章節 4"
 				icon: "kubejs:calculation_mechanism"
 				disable_toast: true
 				stat: "minecraft:play_one_minute"
@@ -119,15 +119,15 @@
 			}]
 		}
 		{
-			title: "Copper Machinery"
+			title: "銅機械"
 			disable_toast: true
 			x: -8.0d
 			y: 2.5d
-			subtitle: "Utility"
+			subtitle: "實用設備"
 			description: [
-				"Copper Machines unlock the capability of Fluid Manipulation. Fill, drain, filter and collect liquids for all of your automation needs."
+				"銅機械的解鎖，意味著你獲得了掌控液體的能力。不管是填充、排放、過濾還是收集液體，都能夠輕鬆滿足你所有的自動化需求。"
 				""
-				"Note that Sealed Mechanisms are an ingredient to nothing else. The main assembly line will continue with Kinetic Mechanisms."
+				"不過要注意一點，密封構件的用途並不多，所以請繼續將流水線生產重心著重在動力構件上。"
 			]
 			dependencies: [
 				"7D872F933F45809B"
@@ -137,7 +137,7 @@
 			tasks: [{
 				id: "27B07858A6018539"
 				type: "stat"
-				title: "Complete Bonus 1A"
+				title: "完成支線章節 1A"
 				icon: "kubejs:sealed_mechanism"
 				disable_toast: true
 				stat: "minecraft:play_one_minute"
@@ -145,15 +145,15 @@
 			}]
 		}
 		{
-			title: "Zinc Machinery"
+			title: "鋅機械"
 			disable_toast: true
 			x: -5.0d
 			y: -2.5d
-			subtitle: "Utility"
+			subtitle: "實用設備"
 			description: [
-				"Zinc Machines are incredibly powerful. From efficient Cobblestone Harvesters to long-ranged Item Collectors, a useful new suite of equipment now sits at the ready."
+				"鋅機械是如此令人難以置信的強大。從高效率鵝卵石製造機到遠距離物品收集都跟它脫離不了關係。一套全新的實用設備現已就緒。"
 				""
-				"Note that Infernal Mechanisms are an ingredient to nothing else. The main assembly line will continue with Precision Mechanisms."
+				"不過要注意一點，地獄構件的用途並不多，所以請繼續將流水線生產重心著重在精密構件上。"
 			]
 			dependencies: [
 				"7888F9129E9FE517"
@@ -163,7 +163,7 @@
 			tasks: [{
 				id: "12CFC84D3F01F49F"
 				type: "stat"
-				title: "Complete Bonus 2A"
+				title: "完成支線章節 2A"
 				icon: "kubejs:infernal_mechanism"
 				disable_toast: true
 				stat: "minecraft:play_one_minute"
@@ -171,12 +171,12 @@
 			}]
 		}
 		{
-			title: "Ender Machinery"
+			title: "終界機械"
 			disable_toast: true
 			x: -2.0d
 			y: 2.5d
-			subtitle: "Utility"
-			description: ["Ender Machines provide not only access to instant Teleportation, but also to the most powerful upgrades for your machines."]
+			subtitle: "實用設備"
+			description: ["終界機械不僅提供了及時多點傳送的使用權，更可以為你的機器提供更強而有力的升級。"]
 			dependencies: [
 				"2BB2C7B95E3C89AE"
 				"6DBEF7A11890ADF8"
@@ -185,7 +185,7 @@
 			tasks: [{
 				id: "4BC5C43C7B23CA16"
 				type: "stat"
-				title: "Complete Bonus 3A"
+				title: "完成支線章節 3A"
 				icon: "kubejs:abstruse_mechanism"
 				disable_toast: true
 				stat: "minecraft:play_one_minute"
@@ -193,18 +193,18 @@
 			}]
 		}
 		{
-			title: "From a Tree Puncher..."
+			title: "從扮演一個無情的捶樹機器開始..."
 			icon: "minecraft:grass_block"
 			x: -13.5d
 			y: 0.0d
 			shape: "hexagon"
-			description: ["Welcome to the Overview. You can always come back here to catch up on your current position in the Progression of Technology. If you look closely, your Journey to the Moon completes the final step of the way on the right side."]
+			description: ["歡迎來到章節概要。你可以隨時回到這裡確認你當前在科技線上的所在位置。如果你仔細觀察，會發現到你的終極目標是飛上月球。"]
 			size: 2.0d
 			id: "75FB28B253B14876"
 			tasks: [{
 				id: "7F88BABEC9889C76"
 				type: "item"
-				title: "Any Logs"
+				title: "任意種類的原木"
 				icon: "minecraft:oak_log"
 				item: {
 					id: "itemfilters:tag"
@@ -222,15 +222,15 @@
 			}]
 		}
 		{
-			title: "..to a Spacefarer"
+			title: "...致太空人"
 			icon: "advancedrocketry:moonturf"
 			x: 2.5d
 			y: 0.0d
 			shape: "hexagon"
 			description: [
-				"The Dream of walking the Moon's surface finally came to fruition."
+				"漫步在月球表面的夢想終於結下豐碩的果實。"
 				""
-				"With that, the role of this Factory Guide has been fulfilled. Enjoy building up your new Hi-Tech Empire, and we'll see you in the next modpack!"
+				"至此，本工廠指南的使命已經全數達成。現在你可以盡情地享受打造高科技帝國所帶來的樂趣，讓我們在下款模組包見！"
 			]
 			dependencies: [
 				"5E62059675895213"
@@ -242,7 +242,7 @@
 				{
 					id: "058AEB3EF218C7D2"
 					type: "stat"
-					title: "Complete Chapter 5"
+					title: "完成章節 5"
 					icon: "advancedrocketry:guidancecomputer"
 					disable_toast: true
 					stat: "minecraft:play_one_minute"
@@ -257,204 +257,204 @@
 			]
 		}
 		{
-			title: "High Aspirations"
+			title: "遠大的抱負"
 			icon: "create:andesite_alloy"
 			x: -11.5d
 			y: 0.0d
 			shape: "circle"
-			subtitle: "Chapter 1"
+			subtitle: "章節 1"
 			description: [
-				"The earliest inventions reveal ones resourcefulness with low level equipment: Auto-Crafting? None. Filtering? Not cheap! Item Transport? May the Belt Spaghetti mesh in your favour."
+				"早期的發明使用起來頗綁手綁腳的：自動合成？抱歉沒有。過濾系統？太過昂貴！物品傳輸？但願由輸送帶編織而成的網狀網路能夠幫助到你。"
 				""
-				"After hitting the Checkmark above, the first Chapter of the Factory Guide will become accessible from the Quest Sidebar."
+				"勾選上方的檢查標記後，工廠指南的第一個章節就可以在任務的側邊欄中進入。"
 			]
 			dependencies: ["75FB28B253B14876"]
 			id: "61147823CC87F711"
 			tasks: [{
 				id: "5A8DF2D8553904BF"
 				type: "checkmark"
-				title: "Unlock Chapter 1"
+				title: "解鎖章節 1"
 			}]
 		}
 		{
-			title: "Alluring Expedience"
+			title: "迷人的便利性"
 			icon: "create:electron_tube"
 			x: -8.5d
 			y: 0.0d
 			shape: "circle"
-			subtitle: "Chapter 2"
+			subtitle: "章節 2"
 			description: [
-				"The chicken and egg problem remains: in order to automate precision mechanisms for brass equipment more conveniently, having more brass equipment would be really useful!"
+				"先有雞還是先有蛋的問題，時至今日仍困擾著我們： 為了使生活變得更加便利，必須透過自動化精密構件來量產黃銅設備，那麼擁有更多的黃銅設備將會是有所助益的！"
 				""
-				"After hitting the Checkmark above, the second Chapter of the Factory Guide will become accessible from the Quest Sidebar."
+				"勾選上方的檢查標記後，工廠指南的第二個章節就可以在任務的側邊欄中進入。"
 			]
 			dependencies: ["0E98B4D2BBF55308"]
 			id: "1E263994D4883A08"
 			tasks: [{
 				id: "28C41C062843C2CA"
 				type: "checkmark"
-				title: "Unlock Chapter 2"
+				title: "解鎖章節 2"
 			}]
 		}
 		{
-			title: "The Catharsis"
+			title: "淨化儀式"
 			icon: "kubejs:radiant_coil"
 			x: -5.5d
 			y: 0.0d
 			shape: "circle"
-			subtitle: "Chapter 3"
+			subtitle: "章節 3"
 			description: [
-				"The Groundwork has been laid with all that has been created so far. The pace should really pick up from here."
+				"截至今日所創造的一切，都為工廠未來的發展奠定了良好的基礎。從現在開始，發展的步調將開始逐步加快。"
 				""
-				"Producing components for inductive technology relies on very peculiar techniques. Though with all the new equipment ready, automating even the more convoluted interactions should become a cakewalk."
+				"要生產出感應技術元件，會相當仰賴一種非常奇特的技術。儘管如此，在有了新設備的幫助下，不管是自動化還是什麼繁瑣的製程，應該對於你來說都只是小菜一碟。"
 				""
-				"After hitting the Checkmark above, the third Chapter of the Factory Guide will become accessible from the Quest Sidebar."
+				"勾選上方的檢查標記後，工廠指南的第三個章節就可以在任務的側邊欄中進入。"
 			]
 			dependencies: ["69275ECFC147E15B"]
 			id: "780E8AE86250C73D"
 			tasks: [{
 				id: "2F6FEDBB1BDCB36C"
 				type: "checkmark"
-				title: "Unlock Chapter 3"
+				title: "解鎖章節 3"
 			}]
 		}
 		{
-			title: "Into the Box"
+			title: "箱中世界"
 			icon: "kubejs:silicon_compound"
 			x: -2.5d
 			y: 0.0d
 			shape: "circle"
-			subtitle: "Chapter 4"
+			subtitle: "章節 4"
 			description: [
-				"A new Energy Unit joins the ranks: the production facility for silicon will involve an interplay of thermal induction machinery and the familiar kinetic components. "
+				"一種全新的能量單位被加入到了流水線之中，矽的生產設備將會同時牽涉到熱感應機械和再熟悉不過的動力元件。"
 				""
-				"Between Flux and Stress, a peculiar innovation in Laser technology will be required to produce some of the ingredients involved."
+				"想要結合能量和應力來生產出一些原料，會需要研發出一種創新的雷射技術。"
 				""
-				"After hitting the Checkmark above, the fourth Chapter of the Factory Guide will become accessible from the Quest Sidebar."
+				"勾選上方的檢查標記後，工廠指南的第四個章節就可以在任務的側邊欄中進入。"
 			]
 			dependencies: ["400CDC316DCDFE88"]
 			id: "26173D4777F439B1"
 			tasks: [{
 				id: "74CFD83C501C4952"
 				type: "checkmark"
-				title: "Unlock Chapter 4"
+				title: "解鎖章節 4"
 			}]
 		}
 		{
-			title: "Divide by Digital"
+			title: "數位落差"
 			icon: "kubejs:divide"
 			x: 0.5d
 			y: 0.0d
 			shape: "circle"
-			subtitle: "Finale"
+			subtitle: "終章"
 			description: [
-				"The entire factory is started back up for one final sprint. With a steady supply of Calculation Mechanisms, the Digital Infrastucture performs the necessary operations to put together an ideal Trajectory."
+				"整個工廠都在為飛向宇宙的目標做最後衝刺。有了穩定的計算構件供應鏈後，夢想的拼圖逐漸拼湊齊全。"
 				""
-				"While this Data Center visibly crunches the numbers, the designated Astronaut starts getting themselves and the spaceship prepared for launch."
+				"當資料中心忙於進行數位運算時，受指派的太空人正在為他和太空船做好發射升空的準備。"
 			]
 			dependencies: ["08716DBF9C882623"]
 			id: "5E62059675895213"
 			tasks: [{
 				id: "251A91F6C21AEAFB"
 				type: "checkmark"
-				title: "Unlock the Final Chapter"
+				title: "解鎖終章"
 			}]
 		}
 		{
-			title: "Rubber Tycoon"
+			title: "橡膠大亨"
 			icon: "thermal:cured_rubber"
 			x: -9.5d
 			y: 1.5d
 			shape: "circle"
-			subtitle: "Bonus 1A"
+			subtitle: "支線章節 1A"
 			description: [
 				""
-				"While Copper Machines will definitely be required going forward; full automation of their ingredients is completely optional."
+				"毫無疑問的，未來的發展肯定是會需要使用到銅機械；但其原料是否需要自動化則要由你自行決定。"
 				""
-				"After hitting the Checkmark above, additional Quests located in the First Chapter will be revealed."
+				"勾選上方的檢查標記後，第一個章節的任務頁面就會延伸出全新的支線。"
 			]
 			dependencies: ["0E98B4D2BBF55308"]
 			id: "7D872F933F45809B"
 			tasks: [{
 				id: "681DACF11F193771"
 				type: "checkmark"
-				title: "Unlock Bonus 1A"
+				title: "解鎖支線章節 1A"
 			}]
 		}
 		{
-			title: "Magmatic Exploits"
+			title: "開發岩漿"
 			icon: "minecraft:lava_bucket"
 			x: -6.5d
 			y: -1.5d
 			shape: "circle"
-			subtitle: "Bonus 2A"
+			subtitle: "支線章節 2A"
 			description: [
-				"We need to go Deeper!"
-				"Access to Zinc Machines will require for some engineering in another dimension. Even if it's literally Hell, a change of scene will always bring forth new ideas and inspiration."
+				"我們必須更深入一點！"
+				"在使用到鋅機械以前，會需要先到另一個的維度進行一些工程。即使字面上是要你去地獄，但或許隨著場景的改變，會跟著帶來一些新的想法和靈感。"
 				""
-				"After hitting the Checkmark above, additional Quests located in the Second Chapter will be revealed."
+				"勾選上方的檢查標記後，第二個章節的任務頁面就會延伸出全新的支線。"
 			]
 			dependencies: ["69275ECFC147E15B"]
 			id: "7888F9129E9FE517"
 			tasks: [{
 				id: "21753CBB528EAADF"
 				type: "checkmark"
-				title: "Unlock Bonus 2A"
+				title: "解鎖支線章節 2A"
 			}]
 		}
 		{
-			title: "Melting the Funds"
+			title: "將資金主義融化"
 			icon: "thermal:enderium_ingot"
 			x: -3.5d
 			y: 1.5d
 			shape: "circle"
-			subtitle: "Bonus 3A"
+			subtitle: "支線章節 3A"
 			description: [
-				"The Prospect of Teleportation alone might be reason enough to explore that mysterious End Dimension."
-				"In researching the required technologies, you will find that your hard earned silver suddenly finds a second use.."
+				"光是可以進行傳送的可能性，就足以構成讓人親自走訪那神祕終界維度的理由。"
+				"在研究所需具備的技術時，你會發現你那辛苦掙來的銀子突然有了其他的用途..."
 				""
-				"After hitting the Checkmark above, additional Quests located in the Third Chapter will be revealed."
+				"勾選上方的檢查標記後，第三個章節的任務頁面就會延伸出全新的支線。"
 			]
 			dependencies: ["400CDC316DCDFE88"]
 			id: "2BB2C7B95E3C89AE"
 			tasks: [{
 				id: "722CA19434E722FB"
 				type: "checkmark"
-				title: "Unlock Bonus 3A"
+				title: "解鎖支線章節 3A"
 			}]
 		}
 		{
-			title: "Chaotic Alchemy"
+			title: "混沌煉金術"
 			icon: "kubejs:substrate_chaos"
 			x: -2.5d
 			y: -1.25d
 			shape: "circle"
-			subtitle: "Alternative Path"
+			subtitle: "替代方案"
 			description: [
-				"You'll find that the newly discovered Laser setup has other interesting capabilities."
+				"隨著時間推移，你將會挖掘出煉金雷射裝置其他有趣的功能。"
 				""
-				"Behind a bit of science and experimentation lies a way to transmute seemingly unrelated materials between another. The demanded Silicon element is one of them, but which is its counterpart?"
+				"在科學和實驗的背後，隱藏著將兩種看似不相關的材料相互轉換的方法。發展數位科技所需的矽元素也是其中一員，但究竟是哪種元素會是它的對應物質呢？"
 				""
-				"After hitting the Checkmark above, the alternative fourth Chapter of the Factory Guide will become accessible from the Quest Sidebar. It will still be possible to return to the other chapter."
+				"勾選上方的檢查標記後，第四個章節的支線就可以在任務的側邊欄中進入。"
 			]
 			dependencies: ["400CDC316DCDFE88"]
 			id: "3934AD57122B6FFE"
 			tasks: [{
 				id: "5DF206B1738D08A0"
 				type: "checkmark"
-				title: "Unlock Chapter 4a"
+				title: "解鎖支線章節 4A"
 			}]
 		}
 		{
-			title: "Preparations"
+			title: "準備工作"
 			icon: "minecraft:cobblestone_stairs"
 			x: -12.5d
 			y: -1.5d
 			shape: "circle"
 			description: [
-				"Careful! Before you are ready to embark on the journey of automation, it can help to set up a basic workshop first."
+				"注意一下！在你準備開始著手自動化工程之前，先設立一個基礎的工作坊會是有幫助的。"
 				""
-				"Here are some recommendations for a successful start."
+				"這裡是一些有助於你成功起步的建議。"
 			]
 			dependencies: ["75FB28B253B14876"]
 			id: "7D6BC99CCCB29924"

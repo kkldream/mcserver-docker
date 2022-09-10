@@ -3,17 +3,17 @@
 	group: "331B6409EF6A7840"
 	order_index: 8
 	filename: "lifesavers"
-	title: " Lifesavers"
+	title: " 生活救星"
 	icon: "minecraft:totem_of_undying"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Choo Choo"
+			title: "小火車"
 			icon: "minecraft:chest_minecart"
 			x: -2.0d
 			y: 1.0d
-			description: ["Minecarts are the most flexible mid-range item transport available to you. Seriously, once you've build one railway connection to transfer items between areas, you will never be able to stop adding more. The convenience of these loaders is just off the charts."]
+			description: ["礦車將會是你遊戲中期最為靈活的物品運輸方式。一旦你建立了第一座用來在兩地間運輸物品的鐵路系統，你將恨不得再多增設幾座系統來協助你自動化。這些裝載機所帶來的便利性簡直超乎想像。"]
 			id: "2A2FA80784667833"
 			tasks: [
 				{
@@ -42,16 +42,16 @@
 			}]
 		}
 		{
-			title: "Control Centre"
+			title: "控制中心"
 			icon: "projectred-illumination:red_inverted_fixture_light"
 			x: -4.0d
 			y: 1.0d
 			description: [
-				"With new circuitry and wiring capability, you can make your factory a little smarter. Also those lamps you can make are really pretty."
+				"有了最新的電路及佈線技術，你可以使你的工廠變得更加智慧化。或許可以使用一些燈飾來使工廠看起來更加美觀。"
 				""
-				"For an actual piece of advice: it is pretty simple to set up a little circuit at a few points in your factory, which detect when an item has not been produced in a while. You can use redstone links to redirect those signals to a central control room, giving you an overview of which sections require maintenance."
+				"這裡有一個實際的建議：在工廠的幾個點位安裝一些電路是非常簡單的，你可以透過這些電路偵測流水線的產品是否有照預期生產。當流水線出現問題時，你可以使用〈無線紅石訊號終端〉接收這些訊號並發送至中央控制室，讓你及時了解流水線哪些部份需要被維護。"
 				""
-				"The circuit on site is basically a tug of war between a slow timer and a content observer detecting the items. The Counter available from circuit stonecutting works perfectly for this."
+				"你的電路基本上就像是一個緩慢的計時器和內容物偵測器間的拔河比賽。透過電路組裝板切石出來的計數器，將能完美地應用在此處。"
 			]
 			id: "1127129CBA2B5E6F"
 			tasks: [
@@ -70,7 +70,7 @@
 				{
 					id: "17B93B8634BC1C2D"
 					type: "item"
-					title: "Any Illumar Dust"
+					title: "任意種類的螢光粉"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -89,15 +89,15 @@
 			}]
 		}
 		{
-			title: "Engineer's Companion"
+			title: "工程師的伴侶"
 			x: -5.0d
 			y: -1.0d
-			description: ["Especially while building new Contraptions, this gadget is incredibly handy. Instead of filling up your pockets with components, simply pick up the toolbox from the workshop and bring it with you."]
+			description: ["在建造新的設備時，這小工具將會顯得格外方便。與其在口袋裡塞滿有的沒的零組件，還不如從工作站提起一個工具箱並帶在身上來得輕鬆。"]
 			id: "26C39961F2E2ABF2"
 			tasks: [{
 				id: "5E687A6CBD96D0EF"
 				type: "item"
-				title: "Any Toolbox"
+				title: "任意顏色的工具箱"
 				icon: "create:blue_toolbox"
 				item: {
 					id: "itemfilters:tag"
@@ -115,13 +115,13 @@
 			}]
 		}
 		{
-			title: "Immersive Minimap"
+			title: "沉浸式小地圖"
 			x: -6.0d
 			y: -3.0d
 			description: [
-				"A cute alternative to the all-powerful map hud is the atlas."
+				"一種比較可愛的全能小地圖替代方案。"
 				""
-				"Aside from the fantastic feel and design; these atlases can be copied and handed to your friends. If one of the owners explores new Territory or places a marker, everyone else will see it too."
+				"除了帶來一種奇妙的感覺和設計外，這些古式地圖都是可以被複製和贈與你的朋友。當地圖的持有人之一探索了新的領域或放置了一個新的標記，其他持有地圖的人也都可以同步更新並查看。"
 			]
 			id: "0B8816319F81C12A"
 			tasks: [{
@@ -144,15 +144,15 @@
 			]
 		}
 		{
-			title: "Big Barrels II"
+			title: "好大的桶子 II"
 			x: 1.0d
 			y: 3.0d
-			description: ["If you are looking for extra large but specialised storage space in a block, check out Storage Drawers."]
+			description: ["如果你正在尋找一種可以存放極大量物品的儲存空間方塊，那請務必參考看看《儲物抽屜》。"]
 			id: "382EBC32AC27C839"
 			tasks: [{
 				id: "4BE344E1F204A43D"
 				type: "item"
-				title: "Any Storage Drawer"
+				title: "任意種類的儲物抽屜"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -170,10 +170,10 @@
 			}]
 		}
 		{
-			title: "The Joy of Cooking"
+			title: "烹飪的喜悅"
 			x: 0.0d
 			y: -3.0d
-			description: ["Stoves are a good-looking and very useful campfire alternative. Together with a Cooking Pot, it can help you prepare the most delicious meals in the game."]
+			description: ["爐灶是一種既好看又實用的營火替代品。搭配〈蒸煮鍋〉一起使用可以幫助你在遊戲中製作各式佳餚。"]
 			id: "0E4476BA80B316F6"
 			tasks: [{
 				id: "72F2D3B586A81A2B"
@@ -188,15 +188,15 @@
 			}]
 		}
 		{
-			title: "Hotswap replace"
+			title: "熱插拔替換"
 			x: -3.0d
 			y: -1.0d
-			description: ["Exchangers make for a nice tool to replace blocks with others. Saves you a lot of digging."]
+			description: ["交換器是一種不用挖掘就能替換方塊的工具，幫助玩家節省大量的挖掘工作。"]
 			id: "6D7D504E9DC22590"
 			tasks: [{
 				id: "4BE0CCD6F383D961"
 				type: "item"
-				title: "Any Exchanger"
+				title: "任意種類的交換器"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -452,15 +452,15 @@
 			}]
 		}
 		{
-			title: "Blockstacker"
+			title: "方塊堆疊大師"
 			x: -1.0d
 			y: -1.0d
-			description: ["Construction wands can extend complete walls or surfaces of blocks by the click of a button."]
+			description: ["建築手杖可以透過點擊按鈕，幫助玩家輕鬆延伸牆面或方塊表面。"]
 			id: "2F469F6F1511D9C4"
 			tasks: [{
 				id: "039DD9EBD46B2C23"
 				type: "item"
-				title: "Any Construction Wand"
+				title: "任意種類的建築手杖"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -510,10 +510,10 @@
 			}]
 		}
 		{
-			title: "Pass me the butter"
+			title: "把奶油遞給我"
 			x: 3.0d
 			y: -1.0d
-			description: ["Human Arms just aren't evolved to build machines efficiently, yet. Thankfully this gadget can make up for it by increasing your reach distance significantly."]
+			description: ["人類的手臂還沒有進化到可以有效地製作機械。謝天謝地，這小工具顯著提升了你的觸及距離好彌補這點。"]
 			id: "7061F42CF050ADCA"
 			tasks: [{
 				id: "0710C744349D2090"
@@ -537,7 +537,7 @@
 		{
 			x: -4.0d
 			y: -3.0d
-			description: ["Sometimes it is desirable to travel to a specific Biome. The Nature's Compass can at least point you in the right direction."]
+			description: ["有些時候，我們希望能夠前往一個特定的生態域。自然羅盤可以為你指出正確的方向。"]
 			id: "45E7810E21F6F9AE"
 			tasks: [{
 				id: "7AD38BD1318A493B"
@@ -557,15 +557,15 @@
 			}]
 		}
 		{
-			title: "Big Barrels"
+			title: "好大的桶子"
 			x: -1.0d
 			y: 3.0d
-			description: ["In case you need large universal storage space in a block, check out the upgrade options for wooden barrels."]
+			description: ["如果你需要個具有大量儲物空間的方塊，不妨確認一下杉木桶的升級選項。"]
 			id: "50E2D6459F3D68C0"
 			tasks: [{
 				id: "6D6CDA4DEFD5795F"
 				type: "item"
-				title: "Any Upgraded Barrel"
+				title: "任意種類的桶子升級"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -600,10 +600,10 @@
 			}]
 		}
 		{
-			title: "House Building Cannon"
+			title: "房子建築大砲"
 			x: 1.0d
 			y: -1.0d
-			description: ["With the help of Schematicannons, any .nbt Schematic can be built into your world. Use it to replicate parts of your Building, or even to prepare it in a completely different World ahead of time."]
+			description: ["在有了藍圖加農砲的幫助下，你可以透過〈.nbt〉類型的藍圖在你的世界上進行建造。使用它複製你建築的一部分，甚至你還可以從一個完全不同的世界中事前準備藍圖。"]
 			id: "09EB29F838620371"
 			tasks: [{
 				id: "103E6982FCFE8B6C"
@@ -618,13 +618,13 @@
 			}]
 		}
 		{
-			title: "Big Plans"
+			title: "遠大的計畫"
 			x: 2.0d
 			y: -3.0d
 			description: [
-				"These Blueprints can be given one or more crafting recipes, which they then apply to your held items whenever you right-click them."
+				"這些藍圖可以儲存一種或多種合成配方，朝著你想要進行懶人製作的配方點擊右鍵，就會自動消耗你身上的材料製作出成品。"
 				""
-				"The quickest and most effective way to assign recipes is to locate the recipe in JEI while the blueprint UI is open. Clicking the '+' in the JEI recipe view will transfer the recipe ingredients to the blueprint for you."
+				"設定配方最快速且最有效的方式，是在你打開藍圖使用者介面時，透過《JEI》找到你想製作的物品配方。點擊配方右下角的「+」按鈕，將配方原料轉移到藍圖上。"
 			]
 			id: "6D900619B1967D72"
 			tasks: [{
@@ -640,13 +640,13 @@
 			}]
 		}
 		{
-			title: "Pressure Tube"
+			title: "壓力管道"
 			x: 0.0d
 			y: 1.0d
 			description: [
-				"Belts and Arms are great, but sometimes we will still give in to the guilty pleasure of using item pipes."
+				"傳送帶和動力臂是很方便沒錯，但有時我們還是得屈服在使用物品管道的罪惡快感下。"
 				""
-				"These tubes however can even serve as a pretty sophisticated logistical infrastructure. Blocks like the Item- or Crafting Terminal will be able to request items from any chests connected to them."
+				"這些管道還可以組成一種相當複雜的物品網路。無論是物品終端還是合成終端，都可以從任何與管道相連的方塊中索取物品。"
 			]
 			id: "334146C815B304DB"
 			tasks: [{
@@ -662,13 +662,13 @@
 			}]
 		}
 		{
-			title: "Induction Conduits"
+			title: "感應管道"
 			x: 2.0d
 			y: 1.0d
 			description: [
-				"With the rise of Inductive Machinery, you'll want to have the option to connect dynamos and machines together in an energy grid."
+				"隨著感應機械的興起，你會希望能有個方法將發電機和多台機器連接在一起形成能量網路。"
 				""
-				"Something to look out for is that these ducts do not always know when to extract power from a block. You can use a Wrench to sneak-click the pipe connection near the block in order to enable/disable pulling."
+				"需要注意的是，這些管道並不總是知道什麼時候該從方塊中提取能量。你可以使用扳手「潛行+右鍵」點擊管道與方塊的連接處，開關該接面的提取模式。"
 			]
 			id: "6BC864CC7CB2C316"
 			tasks: [{
@@ -685,10 +685,10 @@
 			}]
 		}
 		{
-			title: "Bottoms up!"
+			title: "乾杯！"
 			x: -7.0d
 			y: -1.0d
-			description: ["You can use a Keg to create your favourite brews. Drink Responsibly."]
+			description: ["你可以使用啤酒桶來釀造出你最喜愛的啤酒。但還請喝得節制些。"]
 			id: "7D63FF6A2243A06B"
 			tasks: [{
 				id: "3AD6B6675D0D19D0"
@@ -704,10 +704,10 @@
 			}]
 		}
 		{
-			title: "Friend?"
+			title: "朋友？"
 			x: 1.0d
 			y: -5.0d
-			description: ["Placing a Carved Pumpkin on a Hay Bale creates a Straw Golem, who can take care of your crops."]
+			description: ["在一塊乾草綑上放置一個雕刻過得南瓜就能製作出一隻小麥魔像。他可以幫忙你照顧農場裡的那些作物。"]
 			id: "1DBFD0B34659A8F9"
 			tasks: [
 				{
@@ -731,15 +731,15 @@
 			}]
 		}
 		{
-			title: "Roll for Intelligence"
+			title: "用骰子決定智力"
 			x: 4.0d
 			y: -3.0d
-			description: ["Sometimes it is hard to make up ones' mind. Thankfully, we have technology to help us make our decision."]
+			description: ["有些時候，我們很難去下定決心。謝天謝地，有了這個最新科技可以來幫助我們做出決定。"]
 			id: "087659F192F41C6E"
 			tasks: [{
 				id: "0F82D1FCCA10EFBC"
 				type: "item"
-				title: "Any Dice"
+				title: "任意種類的骰子"
 				icon: "dice:white_d6"
 				item: {
 					id: "itemfilters:mod"
@@ -757,11 +757,11 @@
 			}]
 		}
 		{
-			title: "The other Gamemode"
+			title: "其他遊戲模式"
 			icon: "magicfeather:magicfeather"
 			x: 3.0d
 			y: 3.0d
-			description: ["Magic Feathers grant flight to the weilder, albeit only within the range of a Beacon Beam. Still, this should be of great help in setting up big factories!"]
+			description: ["魔法羽毛可以賦予穿戴者飛行能力，儘管只能在烽火台的範圍內飛行。不過這在進行浩大的建築工程時會很有幫助。"]
 			id: "0F4B0608CBF966E6"
 			tasks: [
 				{

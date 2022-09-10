@@ -3,21 +3,21 @@
 	group: "331B6409EF6A7840"
 	order_index: 4
 	filename: "stage_4"
-	title: "&f4&r Into the Box"
+	title: "&f4&r 箱中世界"
 	icon: "chisel:futura/controller_purple"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Chapter 4 Start!"
+			title: "章節 4 開始！"
 			icon: "kubejs:inductive_mechanism"
 			x: 1.0d
 			y: -2.5d
 			shape: "hexagon"
 			description: [
-				"The next target will be Printed Silicon. As one of two known ways to obtain it, the assembly line will move items, fluids and energy in and out of the new and rather compact Invar Machinery."
+				"我們下一個目標是製作出矽板。已知兩種做法的其中一種方式是依靠不變鋼機械，物品、流體及能量將在這全新且相當緊湊的流水線中流動。"
 				""
-				"Much like previous chapters, a few new material sources or shipments are required first."
+				"與上一章節相似，會先需要研究出全新的材料來源和物流方式。"
 			]
 			dependencies: ["74CFD83C501C4952"]
 			hide: true
@@ -34,12 +34,12 @@
 			}]
 		}
 		{
-			title: "Ready to Deploy"
+			title: "準備好部署"
 			icon: "kubejs:calculation_mechanism"
 			x: 1.0d
 			y: 7.5d
-			subtitle: "Contraption 40-2"
-			description: ["For one last time, a line of Deployers will be needed to upgrade the previous mechanism to the next tier."]
+			subtitle: "裝置 40-2"
+			description: ["最後一次了，使用一排機械手將感應構件升級至下一個階級。"]
 			dependencies: [
 				"1BF8F3CC8BEBB620"
 				"71D90A1E5D53FC0A"
@@ -55,19 +55,19 @@
 				{
 					id: "48B114D2C0F51F6D"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Chapter 4 Complete!"
+			title: "章節 4 完成！"
 			x: 1.0d
 			y: 9.5d
 			shape: "hexagon"
 			description: [
-				"Great work! The final assembly line is now complete. Your factory just entered the Digital Age."
+				"幹的漂亮！最終的流水線現已竣工。你的工廠剛正式進入的數位時代。"
 				""
-				"New options have opened up in the Overview. Whenever you are ready."
+				"全新的選項已在章節概要中解鎖。當你準備好就去確認它。"
 			]
 			dependencies: ["6824055533465010"]
 			size: 2.0d
@@ -100,12 +100,12 @@
 			]
 		}
 		{
-			title: "Sand Delivery"
+			title: "運送沙子"
 			icon: "minecraft:sand"
 			x: -1.0d
 			y: -0.5d
-			subtitle: "Contraption 31-1"
-			description: ["A new Shipment of Sand should be scheduled, for it is significantly rich in silicon."]
+			subtitle: "裝置 31-1"
+			description: ["你應該趕緊去安排新一批沙子，因為它矽含量實在非常豐富。"]
 			hide_dependency_lines: true
 			dependencies: ["4B80A801A5BE4A01"]
 			id: "22202C87352242D6"
@@ -119,20 +119,20 @@
 				{
 					id: "58353DEAB0670141"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Ball o' Sand"
+			title: "球狀沙"
 			icon: "kubejs:sand_ball"
 			x: -1.0d
 			y: 0.5d
-			subtitle: "Contraption 31-2"
+			subtitle: "裝置 31-2"
 			description: [
-				"First, the raw blocks are washed and refined into small orbs of wet sand."
+				"首先，將未經加工的方塊拿去清洗並精製成浸濕的球狀沙。"
 				""
-				"Since they could easily collapse, they should never be stacked on top of another. The inductive Fluid Encapsulator should have the necessary precision to generate these reliably."
+				"由於製作過程中，在製品很容易受外部影響而塌陷，因此必須依靠感應式流體灌裝機來提升生產良率。"
 			]
 			dependencies: ["22202C87352242D6"]
 			id: "42F1A649D86DB86D"
@@ -146,17 +146,17 @@
 				{
 					id: "36183F0BBDAA8DB8"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Liquid Sand"
+			title: "流體沙"
 			icon: "kubejs:fine_sand_bucket"
 			x: 1.0d
 			y: 1.5d
 			shape: "circle"
-			description: ["Sifting for Coarse Sand creates a byproduct relevant for further refining the silicon compound."]
+			description: ["篩選粗沙可以進一步製作出一種精煉矽化合物相關的副產物。"]
 			dependencies: ["42F1A649D86DB86D"]
 			id: "4412F3B2827606E4"
 			tasks: [{
@@ -165,12 +165,12 @@
 			}]
 		}
 		{
-			title: "Coarse Sand"
+			title: "粗沙"
 			icon: "kubejs:rough_sand"
 			x: -1.0d
 			y: 1.5d
-			subtitle: "Contraption 31-3"
-			description: ["Rolling the sand ball over an item drain reveals the larger chunks contained within."]
+			subtitle: "裝置 31-3"
+			description: ["在分液池上滾動沙球可以發現其中包含較大的塊狀物。"]
 			dependencies: ["42F1A649D86DB86D"]
 			id: "0F5AA5DF001DCDF5"
 			tasks: [
@@ -183,17 +183,17 @@
 				{
 					id: "589AB5A61CD95E2F"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Crystalline Sand"
+			title: "晶狀沙"
 			icon: "kubejs:purified_sand"
 			x: -1.0d
 			y: 3.0d
-			subtitle: "Contraption 33-3"
-			description: ["Enriching coarse sand with earth charges creates Sand Crystals. Not much more processing is left until the Silicon content reaches a state usable for circuits."]
+			subtitle: "裝置 33-3"
+			description: ["透過地電荷富集粗沙可以製作出晶狀沙。距離正式用於電路板製程之前，已剩下不多步驟。"]
 			dependencies: [
 				"60A8B4C736CE3226"
 				"0F5AA5DF001DCDF5"
@@ -209,17 +209,17 @@
 				{
 					id: "2BE9DD7F346679E2"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Pyrolyzer Round I"
+			title: "熱解器回合 I"
 			icon: "minecraft:charcoal"
 			x: 3.0d
 			y: 0.5d
-			subtitle: "Contraption 34-2"
-			description: ["A Pyrolisation process is not strictly required for Charcoal, but the increased yield makes it worthwhile if the wood supply is limited."]
+			subtitle: "裝置 34-2"
+			description: ["嚴格來講，製作木炭並不需要特別去使用到熱解處理，但如果你木材的供應量有限，提高木炭產出將會是值得的。"]
 			dependencies: ["46820FBDDDEE491E"]
 			id: "3249CD08992F2BCD"
 			tasks: [
@@ -236,12 +236,12 @@
 			]
 		}
 		{
-			title: "Pyrolyzer Round II"
+			title: "熱解器回合 II"
 			icon: "thermal:coal_coke"
 			x: 3.0d
 			y: 1.5d
-			subtitle: "Contraption 34-3"
-			description: ["In a secondary, more lengthy pyrolisation process, Coal Coke is formed. An ideal material for both refining Silicon and to provide heat as Solid Fuel."]
+			subtitle: "裝置 34-3"
+			description: ["在第二步更漫長的熱解過程中會形成出焦炭。這是一種理想的材料，既可以提煉出矽，又可以作為固體燃料提供熱源。"]
 			dependencies: ["3249CD08992F2BCD"]
 			id: "1A383F96B312D1B8"
 			tasks: [
@@ -254,17 +254,17 @@
 				{
 					id: "4960B920CCF3C186"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Controlled Cuts"
+			title: "切割控制"
 			icon: "kubejs:coke_chunk"
 			x: 3.0d
 			y: 3.0d
-			subtitle: "Contraption 35"
-			description: ["Using Mechanical Saws and Water, the coke can to be cut up into chunks in order to become a more effective catalyst."]
+			subtitle: "裝置 35"
+			description: ["使用動力鋸和水，焦炭可以被切割成塊狀，以便成為更有效的催化劑。"]
 			dependencies: ["1A383F96B312D1B8"]
 			id: "16F920C2AF2FA2E0"
 			tasks: [
@@ -277,17 +277,17 @@
 				{
 					id: "44D36B403AA26E97"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "The Merge"
+			title: "融合"
 			icon: "kubejs:silicon_compound"
 			x: 1.0d
 			y: 4.0d
-			subtitle: "Contraption 36"
-			description: ["The process of refining silicon requires a blend of Sand Crystals, Fine Sand and the Carbon Catalyst."]
+			subtitle: "裝置 36"
+			description: ["提煉矽的過程中，會需要混合晶狀沙、細沙以及炭催化劑。"]
 			dependencies: [
 				"343050A40A3AB1F0"
 				"4412F3B2827606E4"
@@ -304,17 +304,17 @@
 				{
 					id: "2F239D4D9BB9B47A"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Concentrated Heat"
+			title: "濃縮熱"
 			icon: "thermal:earth_charge"
 			x: -3.0d
 			y: 3.0d
-			subtitle: "Contraption 33-2"
-			description: ["Compact enough powder back together to create the highly reactive Earth Charge."]
+			subtitle: "裝置 33-2"
+			description: ["將足夠數量的粉末壓縮在一起，製作出具有高活性的地電荷。"]
 			dependencies: ["5799B4124EE20DB1"]
 			id: "60A8B4C736CE3226"
 			tasks: [
@@ -327,17 +327,17 @@
 				{
 					id: "21545C0F55D9D8C8"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Basalz Mill"
+			title: "岩石研磨"
 			icon: "thermal:basalz_powder"
 			x: -3.0d
 			y: 2.0d
-			subtitle: "Contraption 33-1"
-			description: ["Before it is ready for processing, the basalz essence needs a bit of refinement. "]
+			subtitle: "裝置 33-1"
+			description: ["在進一步加工之前，岩石使者精華還需要進行一番提煉。"]
 			dependencies: ["6C4CB8F616A9C3DF"]
 			id: "5799B4124EE20DB1"
 			tasks: [
@@ -350,20 +350,20 @@
 				{
 					id: "05969082F437FCA9"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Hot Laser"
+			title: "熱雷射"
 			icon: "thermal:basalz_rod"
 			x: -3.0d
 			y: 0.5d
-			subtitle: "Contraption 32-2"
+			subtitle: "裝置 32-2"
 			description: [
-				"The first Alchemical Laser forms activated basalz essence from Basalt. This works only if a charged FluxoMagnet is present alongside it in the Hopper Cart."
+				"在你第一組煉金雷射設備的幫助下，成功活化了玄武岩並形成岩石使者精華。只有在漏斗礦車中裝有帶電的能量磁鐵時才會有效。"
 				""
-				"A reliable way to automate the Laser is to use two Cart Loaders, one to place a magnet, one to fill the remaining slots with Basalt Blocks. Move the cart under the laser and activate it. From here you can use one Unloader to extract the worn magnet as well as the desired output."
+				"一個穩定自動化雷射的方法是使用兩台礦車裝貨站，一台用來放置磁鐵，另一台用來裝填玄武岩。"
 			]
 			dependencies: ["0B602ED47A0195A4"]
 			id: "6C4CB8F616A9C3DF"
@@ -377,17 +377,17 @@
 				{
 					id: "7DF47F688E5C795C"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Modern Cobblegen"
+			title: "現代化鵝卵石製造機"
 			icon: "minecraft:basalt"
 			x: -3.0d
 			y: -1.0d
-			subtitle: "Contraption 32-1"
-			description: ["Basalt is an accessible type of rock that contains traces of inert Basalz Powder. For the purposes of this, a steady supply of them is needed."]
+			subtitle: "裝置 32-1"
+			description: ["玄武岩是一種含有微量惰性岩石粉的石材。為了持續提煉出岩石粉，你需要有一個穩定地玄武岩供應鏈。"]
 			hide_dependency_lines: true
 			dependencies: ["4B80A801A5BE4A01"]
 			id: "0B602ED47A0195A4"
@@ -401,12 +401,12 @@
 				{
 					id: "738E569981496B56"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Flux Charger"
+			title: "能量充能器"
 			icon: {
 				id: "thermal:flux_magnet"
 				Count: 1b
@@ -414,11 +414,11 @@
 			}
 			x: -4.0d
 			y: 1.0d
-			subtitle: "Contraption 32-3"
+			subtitle: "裝置 32-3"
 			description: [
-				"In order for the basalz essence to form, the FluxoMagnet present in the cart has to be charged."
+				"為了促使岩石使者精華形成，漏斗礦車在被煉金雷射打中的當下，裡頭的能量磁鐵必須要是帶有電的。"
 				""
-				"Therefore, the contraption will have to route the magnets from the cart unloader through an Energetic Infuser before passing it back into the circuit."
+				"因此，你必須設計一套能夠從礦車卸貨站那將磁鐵送進能量灌注機中充電，並在充飽電後再把磁鐵送回礦車裝貨站的物流系統。"
 			]
 			dependencies: ["0B602ED47A0195A4"]
 			id: "58B534C4AEB4139D"
@@ -436,17 +436,17 @@
 				{
 					id: "11A074DF1CA99AD3"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Snowball Machine"
+			title: "雪球機械"
 			icon: "minecraft:snowball"
 			x: 5.0d
 			y: -1.0d
-			subtitle: "Contraption 37"
-			description: ["New Invar Technology makes forming snowballs out of Water quite a simple process. Perhaps we should set aside a few for our next unannounced visitor.."]
+			subtitle: "裝置 37"
+			description: ["全新的不變鋼科技，使水凝固成雪球的過程變得相當地簡單。或許我們應該為接下來到訪的不速之客預留一些。"]
 			hide_dependency_lines: true
 			dependencies: ["4B80A801A5BE4A01"]
 			id: "4B34B52092BA32BE"
@@ -460,12 +460,12 @@
 				{
 					id: "193D8F8FEC7F864B"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Entropy Charger"
+			title: "熵變充能器"
 			icon: {
 				id: "appliedenergistics2:entropy_manipulator"
 				Count: 1b
@@ -473,11 +473,11 @@
 			}
 			x: 6.0d
 			y: 3.0d
-			subtitle: "Contraption 38-2"
+			subtitle: "裝置 38-2"
 			description: [
-				"In order for the blizz essence to form, the Entropy Manipulator present in the cart has to be charged."
+				"為了促使暴雪使者精華形成，漏斗礦車在被煉金雷射打中的當下，裡頭的熵變機械臂必須要是帶有電的。"
 				""
-				"Ensure the charge in it restored before its next use."
+				"請在下次使用前將確保裡頭是有電的。"
 			]
 			dependencies: ["4B34B52092BA32BE"]
 			id: "6D1519B746E032FB"
@@ -495,20 +495,20 @@
 				{
 					id: "49EAB67814570219"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Cool Laser"
+			title: "冷雷射"
 			icon: "thermal:blizz_rod"
 			x: 5.0d
 			y: 2.5d
-			subtitle: "Contraption 38-1"
+			subtitle: "裝置 38-1"
 			description: [
-				"The second Alchemical Laser forms activated blizz essence from Snowballs. This works only if a charged Entropy Manipulator is present alongside it in the Hopper Cart."
+				"在你第二組煉金雷射設備的幫助下，成功活化了雪球並形成暴雪使者精華。只有在漏斗礦車中裝有帶電的熵變機械臂時才會有效。"
 				""
-				"Your automation strategy from Contraption 32 will perform just as effective here."
+				"你在裝置 32 所設計的自動化產線，放在這裡也會有同樣效果。"
 			]
 			dependencies: ["4B34B52092BA32BE"]
 			id: "0AE7FAEBD5F86D9C"
@@ -522,17 +522,17 @@
 				{
 					id: "518D5675C9D1757D"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Blizz Mill"
+			title: "暴雪研磨"
 			icon: "thermal:blizz_powder"
 			x: 5.0d
 			y: 4.0d
-			subtitle: "Contraption 39-1"
-			description: ["Just like earlier, the essence becomes usable only after a bit of refinement."]
+			subtitle: "裝置 39-1"
+			description: ["就如同先前一樣，精華會需要先經過一番提煉後才會變得有用。"]
 			dependencies: ["0AE7FAEBD5F86D9C"]
 			id: "01B0A6236A5073D1"
 			tasks: [
@@ -545,17 +545,17 @@
 				{
 					id: "5CA556BB4614DD06"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Concentrated Cold"
+			title: "濃縮冷"
 			icon: "thermal:ice_charge"
 			x: 5.0d
 			y: 5.0d
-			subtitle: "Contraption 39-2"
-			description: ["Compact enough powder back together to create the highly reactive Ice Charge."]
+			subtitle: "裝置 39-2"
+			description: ["將足夠數量的粉末壓縮在一起，製作出具有高活性的冰電荷。"]
 			dependencies: ["01B0A6236A5073D1"]
 			id: "4732465116D723EE"
 			tasks: [
@@ -568,17 +568,17 @@
 				{
 					id: "220B89A9B897FA67"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Final Induction"
+			title: "最終熔煉"
 			icon: "appliedenergistics2:silicon"
 			x: 3.0d
 			y: 5.0d
-			subtitle: "Contraption 39-3"
-			description: ["One final pass in the Induction Smelter now produces a chunk of high-quality Silicon."]
+			subtitle: "裝置 39-3"
+			description: ["在經過最後一道手續後，一塊高品質的矽就這麼製造出來了。"]
 			dependencies: [
 				"2268AFAF6E9AB5E2"
 				"4732465116D723EE"
@@ -594,17 +594,17 @@
 				{
 					id: "57D267DD10A22D32"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Circuit Stamper"
+			title: "電路板打印"
 			icon: "appliedenergistics2:printed_silicon"
 			x: 1.0d
 			y: 6.0d
-			subtitle: "Contraption 40-1"
-			description: ["Use Deployers to create a circuit base out of silicon. The required Press can be located at the center of Sky Stone Meteors."]
+			subtitle: "裝置 40-1"
+			description: ["使用機械手來打造一座矽生產基地。其所需的壓印模板可以在隕石的中心處找到。"]
 			dependencies: [
 				"067C5FDA4709F195"
 				"4B19B6EAD511378D"
@@ -621,18 +621,18 @@
 				{
 					id: "20B36555F58C4DB1"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Secrets uncovered"
+			title: "揭開神秘的面紗"
 			icon: "kubejs:substrate_silicon"
 			disable_toast: true
 			x: -3.0d
 			y: 5.0d
 			shape: "hexagon"
-			description: ["The Secret path has been discovered and pursued. From here, getting the Calculation Mechanism will be trivial."]
+			description: ["秘密的工法已被發現。從此刻開始，計算構件的製作將變得微不足道。"]
 			dependencies: ["3B431AAADE8845FA"]
 			hide: true
 			size: 1.5d
@@ -640,7 +640,7 @@
 			tasks: [{
 				id: "5B4F2E2F7BDEA6A0"
 				type: "stat"
-				title: "Complete Chapter 4a"
+				title: "完成支線章節 4A"
 				icon: "kubejs:substrate_chaos"
 				disable_toast: true
 				stat: "minecraft:play_one_minute"
@@ -648,17 +648,17 @@
 			}]
 		}
 		{
-			title: "The Alchemical Laser"
+			title: "煉金雷射"
 			icon: "projectred-illumination:lime_inverted_cage_light"
 			x: 3.0d
 			y: -2.5d
 			shape: "circle"
 			description: [
-				"A central role in this age of technology is played by the Alchemical Laser."
+				"在這個科技時代，煉金雷射扮演著重要的角色。"
 				""
-				"It usually involves converting one material into another, using a high-energy beam and a catalyst or tool of some kind."
+				"這套設備通常會使用一道高能量光束、催化劑或某種類型工具，來將一種材料轉化成另一種不一樣的物質。"
 				""
-				"Inventors can familiarise themselves with the necessary machinery components via JEI or via entering"
+				"發明家們可以透過 JEI 進入 Ponder 介面熟悉煉金雷射整套設備的運作方式。或是你也可以使用以下指令："
 				""
 				" &6/c ponder kubejs:alchemical_laser"
 			]
@@ -671,7 +671,7 @@
 			rewards: [{
 				id: "14F213F493035F9B"
 				type: "command"
-				title: "Open Ponder Scene"
+				title: "開啟 Ponder 場景"
 				icon: {
 					id: "occultism:book_of_calling_djinni_manage_machine"
 					Count: 1b
@@ -685,13 +685,13 @@
 			}]
 		}
 		{
-			title: "Wood Delivery"
+			title: "運送木材"
 			icon: "minecraft:oak_log"
 			x: 3.0d
 			y: -0.5d
 			shape: "square"
-			subtitle: "Contraption 34-1"
-			description: ["It'll be good to order a Wood supply to this location. Aside from Silicon it can contribute to this assembly line for some other useful products."]
+			subtitle: "裝置 34-1"
+			description: ["為這裡打造一座木材供應鏈會是非常值得的。除了矽之外，它還可以為這條流水線貢獻其它有用的產品。"]
 			hide_dependency_lines: true
 			dependencies: ["4B80A801A5BE4A01"]
 			id: "46820FBDDDEE491E"
@@ -699,7 +699,7 @@
 				{
 					id: "0AA0DEB1A87DA675"
 					type: "item"
-					title: "Any Wooden Log"
+					title: "任意種類的原木"
 					icon: "minecraft:oak_log"
 					item: {
 						id: "itemfilters:tag"
@@ -713,18 +713,18 @@
 				{
 					id: "72BA1D3BD545CBE6"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Arming the Deployer IV"
+			title: "機械手的裝備 IV"
 			x: -0.5d
 			y: 7.5d
 			shape: "circle"
 			description: [
-				"The installation process of Calculation Mechanisms can be facilitated by a Flash Drive."
-				"The precious Cobalt required can be found in the Nether. "
+				"我們可以使用隨身碟來簡化計算構件的安裝過程。"
+				"而其所需珍貴的鈷可以在地獄中找到。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["71D90A1E5D53FC0A"]
@@ -743,12 +743,12 @@
 			}]
 		}
 		{
-			title: "Unboxing"
+			title: "開箱"
 			icon: "appliedenergistics2:silicon"
 			x: -1.0d
 			y: 5.0d
-			subtitle: "Contraption 39-A"
-			description: ["Separate the Silicon from its jar using a Reagent Extractor."]
+			subtitle: "裝置 39-A"
+			description: ["使用試劑提取器將矽從其罐中分離出來。"]
 			dependencies: ["0CE88FEA070DC46C"]
 			id: "4B19B6EAD511378D"
 			tasks: [
@@ -761,17 +761,17 @@
 				{
 					id: "0A4B691EF3CDC7A0"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Coal Juice"
+			title: "煤炭果汁"
 			icon: "thermal:creosote_bucket"
 			x: 4.0d
 			y: 1.0d
 			shape: "circle"
-			description: ["Creosote is created as a by-product. It can be used as an additional Fuel Source."]
+			description: ["雜酚油是這套產線中會產出的副產物。可以被用作為額外的燃料來源。"]
 			dependencies: ["3249CD08992F2BCD"]
 			id: "33674138F4866C18"
 			tasks: [{
@@ -780,11 +780,11 @@
 			}]
 		}
 		{
-			title: "Express Circuitry I"
+			title: "壓印電路 I"
 			x: 3.0d
 			y: 9.5d
-			subtitle: "Contraption 41-1"
-			description: ["Additional Processors are required in creating logistical components of ME Technology. At some point some Semi-Automation should come into consideration."]
+			subtitle: "裝置 41-1"
+			description: ["在製作 ME 科技邏輯電路板時，會需要使用到額外的處理器。或許得找些時間來研究該如何半自動化。"]
 			dependencies: ["28DAED70768C6A50"]
 			id: "24C48CFAAD71B230"
 			tasks: [
@@ -809,11 +809,11 @@
 			]
 		}
 		{
-			title: "Express Circuitry II"
+			title: "壓印電路 II"
 			x: 4.0d
 			y: 9.5d
-			subtitle: "Contraption 41-2"
-			description: ["Assembling the Processors is not a trivial process. But it sure is fun to watch it work."]
+			subtitle: "裝置 41-2"
+			description: ["組裝處理器不是件輕鬆的差事。但盯著它打印的過程確實很有趣。"]
 			dependencies: ["24C48CFAAD71B230"]
 			id: "2B8F1D804107EB8C"
 			tasks: [
@@ -838,12 +838,12 @@
 			]
 		}
 		{
-			title: "New Capacity"
+			title: "全新產能方式"
 			icon: "thermal:dynamo_magmatic"
 			x: -1.0d
 			y: -2.5d
 			shape: "circle"
-			description: ["The upcoming Assembly Line will require a significant amount of flux energy to run. It is recommended to find a suitable generation method and to consider higher scales in planning should it become necessary later."]
+			description: ["即將迎來的流水線將會需要使用到大量的能量來維持運作。建議去尋找一種適合你的產能方法，並試著去擴大其產能規模，或許未來會用的上。"]
 			dependencies: ["4B80A801A5BE4A01"]
 			id: "13B197C90F9812C8"
 			tasks: [{

@@ -3,22 +3,22 @@
 	group: "331B6409EF6A7840"
 	order_index: 6
 	filename: "stage_5"
-	title: "&f5&r Divide by Digital"
+	title: "&f5&r 數位落差"
 	icon: "kubejs:computation_matrix"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Finale Start!"
+			title: "終章開始！"
 			icon: "kubejs:calculation_mechanism"
 			x: 5.0d
 			y: 15.5d
 			shape: "hexagon"
 			description: [
-				"Welcome to the final Chapter of this Journey: building the Data Centre. What will this entail? Thousands of numeric calculations! "
-				"But do not fear, as an inventor you will let your creation do all the work for you, as usual."
+				"歡迎來到本次旅途的最後一個章節：建立資料中心。這將會需要做些什麼？數以千計的數學運算！"
+				"請不要對此感到恐懼，身為一名發明家，你會像往常一樣，利用你的動力機械設備為你做所有的工作。"
 				""
-				"Cast the combined logic of all your Calculation Mechanisms into two digits, from which you will calculate 8 others through a series of crafting operations. A digital ME system is recommended for managing the logistics, though not strictly required."
+				"將你的計算構件熔化並重鑄為兩個數字，在經過一系列的合成作業後透過它們計算出另外八個數字。建議使用數位 ME 系統來管理物流，儘管這不是必需的。"
 			]
 			dependencies: ["251A91F6C21AEAFB"]
 			hide: true
@@ -35,17 +35,17 @@
 			}]
 		}
 		{
-			title: "We have lift off!"
+			title: "我們升空了！"
 			icon: "advancedrocketry:guidancecomputer"
 			x: 2.0d
 			y: 7.75d
 			shape: "hexagon"
 			description: [
-				"With everything in place and the Matrices programmed, you can go ahead and assemble the Guidance Computer and add it to your Spaceship."
+				"一切準備就緒，且矩陣編譯完成後，你可以繼續組裝導航電腦，並將它裝置在你的太空船上。"
 				""
-				"Take a minute to craft a flag representing your space program to bring to the moon. You can apply patterns to it just like a Banner."
+				"花個大約一分鐘的時間製作出一面能夠代表你的橫旗，並帶著它一起上到月球上。你可以像旗幟那樣把圖案套用在橫旗上面。"
 				""
-				"In your own time, take a seat in your assembled rocket, and press Space."
+				"照著你的步調走，在你組裝好的火箭上坐下來，並發射升空。"
 			]
 			dependencies: [
 				"6BA9A176EDA001A3"
@@ -69,7 +69,7 @@
 				{
 					id: "4418C7A289B17158"
 					type: "item"
-					title: "Any Flag"
+					title: "任意種類的橫旗"
 					icon: {
 						id: "supplementaries:flag_gray"
 						Count: 1b
@@ -189,7 +189,7 @@
 					tag: {
 						RepairCost: 0
 						display: {
-							Name: "{\"text\":\"Flag Pole\",\"italic\":false,\"color\":\"aqua\"}"
+							Name: "{\"text\":\"旗杆\",\"italic\":false,\"color\":\"aqua\"}"
 						}
 					}
 				}
@@ -197,19 +197,19 @@
 			}]
 		}
 		{
-			title: "Solving Trajectories"
+			title: "解決航道問題"
 			x: 2.0d
 			y: 9.5d
 			shape: "circle"
-			subtitle: "Contraption 45"
+			subtitle: "裝置 45"
 			description: [
-				"For the calculations of the Guidance computer, we will need.. a lot of these Digits."
+				"導航電腦的編譯過程中，我們將會需要這些......大量的數字。"
 				""
-				"Before letting items exit the logistical ecosystem of the calculations, make sure each digit leaves in equal amounts. Brass Tunnels can solve this issue in a straight-forward fashion."
+				"在讓物品離開這龐大的運算物流系統前，要確保每個數字輸出的數量相等。黃銅隧道可以以最直接的方式解決這個問題。"
 				""
-				"Each digit now has to be dissolved back into its liquified form via Smeltery. Once a Smeltery collected 10 liquified items of each digit, they combine into the encoded logic required for our Computer. Once enough of this figurative alloy has accumulated, it can be cast into the powerful Computation Matrix."
+				"現在我們需要將每一個數字輸入進冶煉爐中液化。當每個數字在冶煉爐中各液化了10次時，它們就會結合成我們導航電腦所需的編碼邏輯。一旦累積了足夠多的這種象徵性合金，它們就可以被鑄造成強大的運算矩陣。"
 				""
-				"The Guidance Computer requires 8 Matrices to function. Depending on your data centre and mechanism assembly lines, this may take a while."
+				"導航電腦總共會需要使用到八個矩陣。根據你資料中心和構件流水線的狀況來看，這可能還需要一段時間。"
 			]
 			dependencies: [
 				"42B5C0102B22F389"
@@ -234,7 +234,7 @@
 			}]
 		}
 		{
-			title: "Processing Power"
+			title: "動力運算"
 			icon: {
 				id: "thermal:fluid_cell"
 				Count: 1b
@@ -263,8 +263,8 @@
 			x: 2.0d
 			y: 15.5d
 			shape: "square"
-			subtitle: "Contraption 42"
-			description: ["In order to provide 'Mechanical' Calculators with numbers and operators, all available Calculation Mechanisms have to be melted down into the figurative processing power they provide."]
+			subtitle: "裝置 42"
+			description: ["為了給「動力」計算機提供數字以及運算子，所有可用的計算構件都必須拿去熔化並鑄造成它們所對應的象徵物。"]
 			dependencies: ["5D0454F977C4F080"]
 			size: 1.5d
 			id: "70D563EF30E9CB97"
@@ -278,7 +278,7 @@
 				{
 					id: "406AAC43EBD44F6A"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
@@ -286,11 +286,11 @@
 			icon: "kubejs:three"
 			x: 0.5d
 			y: 13.5d
-			subtitle: "Contraption 43-1"
+			subtitle: "裝置 43-1"
 			description: [
-				"As one of the two available digits, Threes can be cast from unprocessed logic. Together with the Eight and available Operators, your Calculators will have to create the remaining digits from 0 to 9 in equal amounts."
+				"做為可用的數字之一，「3」可以透過將未處理的液化邏輯澆注在鑄模上鑄造而成。連同數字8與可用的運算子一起，運用計算機運算出等量的0到9間剩餘的數字。"
 				""
-				"This casting process can quickly become a bottleneck, for most running calculations depend on the numbers generated here. Make sure things move fluently."
+				"這種鑄造過程很快就會遇到瓶頸，因為大多數執行中的運算都必須仰賴這裡產生的數字。請務必確保作業能夠流暢進行。"
 			]
 			dependencies: ["70D563EF30E9CB97"]
 			id: "5550A3E383EFEC90"
@@ -304,7 +304,7 @@
 				{
 					id: "61DEC75D20A61088"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
@@ -312,11 +312,11 @@
 			icon: "kubejs:eight"
 			x: 3.5d
 			y: 13.5d
-			subtitle: "Contraption 43-3"
+			subtitle: "裝置 43-3"
 			description: [
-				"The second available Digit is the Eight. It can be cast from unprocessed logic."
+				"第二個可用的數字是「8」。可以透過將未處理的液化邏輯澆注在鑄模上鑄造而成。"
 				""
-				"From here, plan via which calculations the other digits will be created, and how the cost can be minimised. Remember that each added calculation step ends up increasing the amount of Calculation Mechanisms required for the digit it leads to."
+				"從這裡開始，規劃要使用哪些算式來運算出其他數字，以及如何使成本最小化。要記住一點，每增加一列算式，終究會導致該數字所需的計算構件數量增加。"
 			]
 			dependencies: ["70D563EF30E9CB97"]
 			id: "3126DE83A6741671"
@@ -330,7 +330,7 @@
 				{
 					id: "4DAD021C66AB2A27"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
@@ -338,8 +338,8 @@
 			icon: "kubejs:zero"
 			x: 5.5d
 			y: 11.5d
-			subtitle: "Contraption 44-8"
-			description: ["3-3, 2-2, 8-8,...? A total of 39 options exist to calculate zeros. A tough decision!"]
+			subtitle: "裝置 44-8"
+			description: ["3-3， 2-2， 8-8，...？ 總計有39種計算出0的算式。 這是個艱難的決定！"]
 			dependencies: [
 				"5550A3E383EFEC90"
 				"3126DE83A6741671"
@@ -356,7 +356,7 @@
 				{
 					id: "3413FA802F33F4BF"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
@@ -364,8 +364,8 @@
 			icon: "kubejs:one"
 			x: -1.5d
 			y: 11.5d
-			subtitle: "Contraption 44-1"
-			description: ["3-2, 4/4, 8-7,...? A total of 21 options exist to calculate ones. Whichever will it be?"]
+			subtitle: "裝置 44-1"
+			description: ["3-2， 4/4， 8-7，...？ 總計有21種計算出1的算式。 將會採用哪一個呢？"]
 			dependencies: [
 				"5550A3E383EFEC90"
 				"3126DE83A6741671"
@@ -382,7 +382,7 @@
 				{
 					id: "402FD7973EC66AEA"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
@@ -390,8 +390,8 @@
 			icon: "kubejs:two"
 			x: -0.5d
 			y: 11.5d
-			subtitle: "Contraption 44-2"
-			description: ["3-1, 8/4, 1+1,...? A total of 17 options exist to calculate twos. Any favourites?"]
+			subtitle: "裝置 44-2"
+			description: ["3-1， 8/4， 1+1，...？ 總計有17種計算出2的算式。 有特別喜歡的嗎？"]
 			dependencies: [
 				"5550A3E383EFEC90"
 				"3126DE83A6741671"
@@ -408,7 +408,7 @@
 				{
 					id: "14D9C52366D6AF27"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
@@ -416,8 +416,8 @@
 			icon: "kubejs:four"
 			x: 0.5d
 			y: 11.5d
-			subtitle: "Contraption 44-3"
-			description: ["6-2, 2x2, 3+1,...? A total of 16 options exist to calculate fours. Choose wisely."]
+			subtitle: "裝置 44-3"
+			description: ["6-2， 2x2， 3+1，...？ 總計有16種計算出4的算式。 請明智的選擇。"]
 			dependencies: [
 				"5550A3E383EFEC90"
 				"3126DE83A6741671"
@@ -434,7 +434,7 @@
 				{
 					id: "3662CA8BEE33E02D"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
@@ -442,8 +442,8 @@
 			icon: "kubejs:five"
 			x: 1.5d
 			y: 11.5d
-			subtitle: "Contraption 44-4"
-			description: ["3+2, 6-1, 8-3,...? A total of 14 options exist to calculate fives. How do you want to do this?"]
+			subtitle: "裝置 44-4"
+			description: ["3+2， 6-1， 8-3，...？ 總計有14種計算出5的算式。 你想要怎麼做呢？"]
 			dependencies: [
 				"5550A3E383EFEC90"
 				"3126DE83A6741671"
@@ -460,7 +460,7 @@
 				{
 					id: "4963498277C8A578"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
@@ -468,8 +468,8 @@
 			icon: "kubejs:six"
 			x: 2.5d
 			y: 11.5d
-			subtitle: "Contraption 44-5"
-			description: ["3x2, 3+3, 8-2,...? A total of 16 options exist to calculate sixes. May the best be victorious."]
+			subtitle: "裝置 44-5"
+			description: ["3x2， 3+3， 8-2，...？ 總計有16種計算出6的算式。 願最好的人選得勝。"]
 			dependencies: [
 				"5550A3E383EFEC90"
 				"3126DE83A6741671"
@@ -486,7 +486,7 @@
 				{
 					id: "3E69BC01E47532D1"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
@@ -494,8 +494,8 @@
 			icon: "kubejs:seven"
 			x: 3.5d
 			y: 11.5d
-			subtitle: "Contraption 44-6"
-			description: ["9-2, 4+3, 8-1,...? A total of 14 options exist to calculate sevens. Feeling Lucky?"]
+			subtitle: "裝置 44-6"
+			description: ["9-2， 4+3， 8-1，...？ 總計有14種計算出7的算式。 覺得幸運了嗎？"]
 			dependencies: [
 				"5550A3E383EFEC90"
 				"3126DE83A6741671"
@@ -512,7 +512,7 @@
 				{
 					id: "44A10C4B490D3C62"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
@@ -520,8 +520,8 @@
 			icon: "kubejs:nine"
 			x: 4.5d
 			y: 11.5d
-			subtitle: "Contraption 44-7"
-			description: ["3x3, 4+5, 8+1,...? A total of 15 options exist to calculate nines. The choice is yours."]
+			subtitle: "裝置 44-7"
+			description: ["3x3， 4+5， 8+1，...？ 總計有15種計算出9的算式。 這是你的選擇。"]
 			dependencies: [
 				"5550A3E383EFEC90"
 				"3126DE83A6741671"
@@ -538,20 +538,20 @@
 				{
 					id: "5521427D5BAF2771"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Upcycle Bin"
+			title: "升級回收站"
 			icon: "appliedenergistics2:matter_ball"
 			x: 2.0d
 			y: 3.0d
-			subtitle: "Contraption 47"
+			subtitle: "裝置 47"
 			description: [
-				"Rocketry Equipment is built from the light but robust material of Matter Plastics. Matter Balls can be created in a Matter Condenser."
+				"火箭套裝必須由物質塑料這種輕盈卻堅固的材料製作而成。物質球可以在物質聚合器中產生。"
 				""
-				"First, insert a 1k ME Storage Component into the Matter Condenser, set it to produce Matter Balls and then supply it with the most abundant flow of items you can come up with. Don't throw your valuables in; the items are consumed in the process."
+				"首先，你要在物質聚合器中插入一個1K ME 儲存空間組件，並將其工作內容設定為製作物質球，然後向其提供你所能想到最豐富的物品或是流體。別把你貴重的物品也給扔進去，這些物品將在聚合物質的過程中被消耗掉。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["5D0454F977C4F080"]
@@ -566,16 +566,16 @@
 				{
 					id: "0811C927283EE155"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Expensive Bricks II"
+			title: "造價不斐的磚頭 II"
 			x: 2.0d
 			y: 4.5d
 			shape: "circle"
-			description: ["Create bars of Matter Plastics in a Super-Heated Compacter. You'll need a couple of these."]
+			description: ["在超級加熱狀態下的輥壓機中生產出物質塑料條。在接下來的步驟中，你將會需要使用到這些東西。"]
 			dependencies: [
 				"6F750A66D0A559DE"
 				"3CBED6B591BCEDEA"
@@ -589,19 +589,19 @@
 			}]
 		}
 		{
-			title: "Black Gold"
+			title: "黑金"
 			icon: "thermal:crude_oil_bucket"
 			x: -2.5d
 			y: 8.0d
 			shape: "circle"
-			description: ["For powering our Rocket, we will require some very potent fuel. Search some of the warmer biomes for a source of Crude Oil. You cannot miss it."]
+			description: ["為了給我們的火箭提供動力，我們將需要非常強效的燃料。你可以在一些比較溫暖的生態域中尋找石油來源。它們非常明顯，你絕對不會錯過的。"]
 			hide_dependency_lines: true
 			dependencies: ["5D0454F977C4F080"]
 			id: "4761DAE59CDD93AF"
 			tasks: [{
 				id: "69EE10F8CDFF7980"
 				type: "item"
-				title: "Any Crude Oil Bucket"
+				title: "任意種類的原油桶"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -622,11 +622,11 @@
 			}]
 		}
 		{
-			title: "Hydrocarbon Sorter I"
+			title: "碳氫化合物分餾機 I"
 			x: -1.0d
 			y: 8.0d
 			shape: "circle"
-			description: ["Crude Oil can be refined into Heavy Oil using a Fractionating Still."]
+			description: ["原油可以在分餾靜止機中提煉成重油。"]
 			dependencies: ["4761DAE59CDD93AF"]
 			id: "2BD76CB3F8BC215E"
 			tasks: [{
@@ -637,11 +637,11 @@
 			}]
 		}
 		{
-			title: "Hydrocarbon Sorter II"
+			title: "碳氫化合物分餾機 II"
 			x: -1.0d
 			y: 9.0d
 			shape: "circle"
-			description: ["Refining Crude Oil into Heavy Oil creates a by-product of Light Oil."]
+			description: ["在將原油提煉成重油的過程中，會產生出名叫「輕油」的副產品。"]
 			dependencies: ["4761DAE59CDD93AF"]
 			id: "26DD1CA6A8D4E249"
 			tasks: [{
@@ -652,12 +652,12 @@
 			}]
 		}
 		{
-			title: "Hydrocarbon Sorter III"
+			title: "碳氫化合物分餾機 III"
 			x: 0.5d
 			y: 9.0d
 			shape: "circle"
-			subtitle: "Contraption 46"
-			description: ["Both Heavy and Light Oil can be further refined into suitable Rocket Fuel."]
+			subtitle: "裝置 46"
+			description: ["重油以及輕油都可以再進一步的提煉成適合的火箭燃料。"]
 			dependencies: [
 				"2BD76CB3F8BC215E"
 				"26DD1CA6A8D4E249"
@@ -672,11 +672,11 @@
 			}]
 		}
 		{
-			title: "Treat for Heat"
+			title: "熱處理"
 			x: 3.5d
 			y: 3.5d
 			shape: "circle"
-			description: ["To form Matter Plastics, we need temperatures unreachable by even the most overclocked Invar Machines. However, your little Blaze friend will be happy to trade..."]
+			description: ["為了塑形出物質塑料，我們會需要連不變鋼機械終極超頻下也達到不了的高溫。然而，你的小烈焰使者夥伴將很願意與你達成一項交易......"]
 			hide_dependency_lines: true
 			dependencies: ["5D0454F977C4F080"]
 			id: "6F750A66D0A559DE"
@@ -688,12 +688,12 @@
 			}]
 		}
 		{
-			title: "Attire"
+			title: "服裝"
 			icon: "advancedrocketry:spacehelmet"
 			x: -1.0d
 			y: 6.0d
 			shape: "circle"
-			description: ["If you intend to survive past the landing, a special set of armour will be required."]
+			description: ["如果你打算在登陸月球後仍夠繼續生存下去，那麼就會需要一套特殊的盔甲。"]
 			dependencies: ["6A156D11D983661D"]
 			id: "6BA9A176EDA001A3"
 			tasks: [
@@ -724,11 +724,11 @@
 			]
 		}
 		{
-			title: "Where to?"
+			title: "目的地在哪？"
 			x: 3.5d
 			y: 9.0d
 			shape: "circle"
-			description: ["In order for your Guidance Computer to know its Destination, a Planet Id Chip has to be inserted."]
+			description: ["為了讓導航電腦正確地引導你航向目的地。你必須插入一張星球 ID 晶片。"]
 			hide_dependency_lines: true
 			dependencies: ["5D0454F977C4F080"]
 			id: "462CE0A4C80442FB"
@@ -747,16 +747,16 @@
 			}]
 		}
 		{
-			title: "Electrolysis"
+			title: "電解分離"
 			icon: "advancedrocketry:oxygencharger"
 			x: 0.5d
 			y: 6.0d
 			shape: "circle"
-			subtitle: "Contraption 48"
+			subtitle: "裝置 48"
 			description: [
-				"In order to fill your Oxygen Tanks, stand on a Gas Charge Pad with oxygen in its internal storage."
+				"為了填充你的氧氣桶，請站在內部裝有氧氣的氣體填裝台上。"
 				""
-				"Suitable Oxygen can be gained by separating water into its components via heated mixing."
+				"透過在混合攪拌水的過程中進行加熱，可以獲得我們所需要的氧氣。"
 			]
 			dependencies: ["6A156D11D983661D"]
 			id: "3AD7553F3C8593F9"
@@ -777,16 +777,16 @@
 			]
 		}
 		{
-			title: "Launch Pad Structure"
+			title: "發射台結構"
 			icon: "advancedrocketry:launchpad"
 			x: 2.0d
 			y: 6.0d
 			shape: "circle"
-			subtitle: "Contraption 49"
+			subtitle: "裝置 49"
 			description: [
-				"The Launch Pad for your Rocket requires special surface materials and reinforcement structures."
+				"你的火箭發射台會需要一種特別的地基以及堅固的結構支撐。"
 				""
-				"In order to learn about the specific guidelines, locate the ponder scene of the Guidance Computer, or use the command"
+				"為了了解具體的設計準則，請進入導航電腦的 Ponder 場景，或是使用以下指令："
 				""
 				"&6/c ponder advancedrocketry:guidancecomputer"
 			]
@@ -829,12 +829,12 @@
 			}]
 		}
 		{
-			title: "Pipeless Loading"
+			title: "遠程裝載"
 			icon: "libvulpes:linker"
 			x: 5.0d
 			y: 6.0d
 			shape: "circle"
-			description: ["A couple of additional Gadgets are required in order to load the rocket with fuel. For usages refer to the Ponder Scene of the Guidance Computer."]
+			description: ["為了給火箭填裝燃料，還需要一對額外的小幫手。具體使用方法請參考導航電腦的 Ponder 場景。"]
 			dependencies: ["6A156D11D983661D"]
 			id: "1AE7B6CA4D1DBA6F"
 			tasks: [
@@ -853,12 +853,12 @@
 			]
 		}
 		{
-			title: "Operators"
+			title: "運算子"
 			icon: "kubejs:plus"
 			x: 2.0d
 			y: 14.0d
-			subtitle: "Contraption 43-2"
-			description: ["Without the operators, a data center would not be able to combine digits into others. Provide your Calculators with an automated supply of any operator they end up requiring."]
+			subtitle: "裝置 43-2"
+			description: ["沒了運算子，資料中心就無法將數字運算成其他數字。請為你的計算機提供它們算式所需要的運算子供應鏈。"]
 			dependencies: ["70D563EF30E9CB97"]
 			id: "4E85C8A2EEEB57C3"
 			tasks: [
@@ -889,22 +889,22 @@
 				{
 					id: "26517C9D1C3D8269"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "The Spaceship"
+			title: "太空船"
 			icon: "advancedrocketry:fueltank"
 			x: 3.5d
 			y: 6.0d
 			shape: "circle"
-			subtitle: "Contraption &b50"
+			subtitle: "裝置 &b50"
 			description: [
-				"With the Launch Pad in place, it is time to construct your Spaceship. "
+				"發射台建置完畢後，是時候搭建屬於你的火箭了。"
 				""
-				"Give it your best, after all this is the final Contraption you've been working towards. "
-				"&7Though perhaps keep the palette simple- with the state that mod is in, see if you can avoid using any funky special rendered blocks here. Crashing to this now would be devastating."
+				"放手去做吧，你這一路走來的艱辛過程，都是在為這最終裝置鋪路。"
+				"&7或許還是得盡量地保持火箭結構的簡單性 - 以這模組目前的開發情況來看，最好還是避免在上面使用一些古怪的渲染方塊。你不會希望在旅程的終點處，只因為一次的遊戲崩潰而功虧一簣，對吧？"
 			]
 			dependencies: [
 				"6A156D11D983661D"

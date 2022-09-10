@@ -3,22 +3,22 @@
 	group: "331B6409EF6A7840"
 	order_index: 1
 	filename: "stage_1"
-	title: "&f1&r High Aspirations"
+	title: "&f1&r 遠大的抱負"
 	icon: "kubejs:andesite_machine"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Automatic Forest"
+			title: "自動化樹場"
 			icon: "minecraft:oak_log"
 			x: -1.0d
 			y: 1.0d
 			shape: "square"
-			subtitle: "Contraption 1"
+			subtitle: "裝置 1"
 			description: [
-				"Building Material, Fuel and Ingredient. A passive supply of timber would be a good first effort. "
+				"建材、燃料和原料。打造木材的被動收入是你前期可以嘗試的目標。"
 				""
-				"Mechanical Saws are a powerful way to achieve this."
+				"動力鋸會是幫助你實現自動化的強力推手。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["5799D55BB26BA52C"]
@@ -27,7 +27,7 @@
 				{
 					id: "58AB6E0FF2EA6AD4"
 					type: "item"
-					title: "Any Wooden Log"
+					title: "任意種類的原木"
 					icon: "minecraft:oak_log"
 					disable_toast: true
 					item: {
@@ -42,20 +42,20 @@
 				{
 					id: "0842082756DA73FE"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Underwater Garden"
+			title: "水下花園"
 			icon: "minecraft:kelp"
 			x: 5.0d
 			y: 1.0d
-			subtitle: "Contraption 3"
+			subtitle: "裝置 3"
 			description: [
-				"Kelp is vital ingredient to our first Assembly Line target: Andesite Alloy."
+				"海帶是我們流水線最首要的生產對象： 「安山合金」的生產原料。"
 				""
-				"Kelp can be gathered automatically with Mechanical Harvesters."
+				"海帶可以利用動力收割機進行全自動採收。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["5799D55BB26BA52C"]
@@ -70,17 +70,17 @@
 				{
 					id: "0631FA27CEE5D67D"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Catching Sediment"
+			title: "收集沉積物"
 			icon: "minecraft:sand"
 			x: 3.0d
 			y: 1.0d
-			subtitle: "Contraption 2"
-			description: ["A good way to automate Sand at this moment is to build Strainers."]
+			subtitle: "裝置 2"
+			description: ["建造濾網會是現階段收集沙子最有效的方式。"]
 			hide_dependency_lines: true
 			dependencies: ["5799D55BB26BA52C"]
 			id: "4CC420A6B673176A"
@@ -88,7 +88,7 @@
 				{
 					id: "72FE446F5BB1A93E"
 					type: "item"
-					title: "Sand"
+					title: "沙"
 					icon: "minecraft:sand"
 					item: {
 						id: "itemfilters:or"
@@ -115,21 +115,21 @@
 				{
 					id: "4208FAAC229CACA6"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Bedrock's Bounty"
+			title: "基岩的恩惠"
 			icon: "create:andesite_cobblestone"
 			x: 1.0d
 			y: 1.0d
-			subtitle: "Contraption 4"
+			subtitle: "裝置 4"
 			description: [
-				"Gathering Andesite manually takes time. Thankfully, bedrock can cause lava to form Andesite infinitely."
+				"人工採集安山岩是件非常耗時又費勁的工作。謝天謝地，只要利用基岩、水和熔岩就能夠永無止境的供應安山岩。"
 				""
-				"At this time it is best to set up drills to break generated blocks between lava and water."
-				"Since bedrock is blocking the space beneath, you'll have to find a way to collect the drops from other sides."
+				"現階段最好是利用動力鑽頭來全自動採集水和熔岩間產生的方塊。"
+				"由於基岩已經占據了裝置底下的位置，你必須找到方法，透過其它面的剩餘空間來收集掉落物。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["5799D55BB26BA52C"]
@@ -144,33 +144,33 @@
 				{
 					id: "29B78BB983BE39FC"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "The Andesite Lift"
+			title: "安山岩電梯"
 			icon: "create:rope_pulley"
 			x: 1.0d
 			y: 3.0d
 			shape: "circle"
-			subtitle: "Contraption 5"
-			description: ["All your Andesite is likely not being generated near your factory. Figure out a way to bring it to the surface."]
+			subtitle: "裝置 5"
+			description: ["你的安山岩自動化採石廠很可能不是蓋在你的流水線附近，必須想辦法把那些石材運送到地表。"]
 			dependencies: ["106C6DFDCB97327C"]
 			id: "6B7F0631060A9E62"
 			tasks: [{
 				id: "0C764FDD555E8CCD"
 				type: "checkmark"
-				title: "Automated"
+				title: "已自動化"
 			}]
 		}
 		{
-			title: "Clay Washer"
+			title: "黏土清洗機"
 			icon: "minecraft:clay_ball"
 			x: 3.5d
 			y: 2.5d
-			subtitle: "Contraption 6-1"
-			description: ["With the help of Encased Fans, sand can be refined into clay."]
+			subtitle: "裝置 6-1"
+			description: ["有了鼓風機的幫助，沙子將可以被精製成黏土。"]
 			dependencies: ["4CC420A6B673176A"]
 			id: "729FB5DD07C234E8"
 			tasks: [
@@ -183,17 +183,17 @@
 				{
 					id: "02EE2F24FDF534BC"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Algae Blender"
+			title: "海藻攪拌器"
 			icon: "architects_palette:algal_blend"
 			x: 5.0d
 			y: 3.5d
-			subtitle: "Contraption 6-2"
-			description: ["In the Mix! Clay and Kelp can be processed with the Mechanical Mixer."]
+			subtitle: "裝置 6-2"
+			description: ["有了動力攪拌器的幫助，可以將海草和黏土放進工作盆裡進行加工混合。"]
 			dependencies: [
 				"729FB5DD07C234E8"
 				"608BF7BE3CB666F3"
@@ -209,24 +209,24 @@
 				{
 					id: "63EA7BF746BF3254"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Log Stripper"
+			title: "原木剝皮器"
 			icon: "minecraft:stripped_oak_log"
 			x: -1.0d
 			y: 3.5d
-			subtitle: "Contraption 7-1"
-			description: ["Upwards-facing Mechanical Saws can process the harvested logs further..."]
+			subtitle: "裝置 7-1"
+			description: ["面朝上擺放動力鋸，可以用來進一步處理收穫的原木..."]
 			dependencies: ["2CB570195DA7E106"]
 			id: "532EFE32C3A515B5"
 			tasks: [
 				{
 					id: "3C7A4BA98EEC90E8"
 					type: "item"
-					title: "Any Stripped Log"
+					title: "任意種類的剝皮原木"
 					icon: "minecraft:stripped_oak_log"
 					item: {
 						id: "itemfilters:or"
@@ -345,24 +345,24 @@
 				{
 					id: "7B60357D06FE3ADC"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Plank Cutter"
+			title: "木材切割機"
 			icon: "minecraft:oak_planks"
 			x: -0.5d
 			y: 4.5d
-			subtitle: "Contraption 7-2"
-			description: ["...and further..."]
+			subtitle: "裝置 7-2"
+			description: ["...更進一步..."]
 			dependencies: ["532EFE32C3A515B5"]
 			id: "19921941321965A4"
 			tasks: [
 				{
 					id: "1A63E51B0CF5C6DD"
 					type: "item"
-					title: "Any Planks"
+					title: "任意種類的木材"
 					icon: "minecraft:oak_planks"
 					item: {
 						id: "itemfilters:tag"
@@ -376,20 +376,20 @@
 				{
 					id: "175767726FBCAA8D"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Cutter of Cut Planks"
+			title: "切割木材的切割機"
 			icon: "minecraft:oak_slab"
 			x: 0.5d
 			y: 5.0d
-			subtitle: "Contraption 7-3"
+			subtitle: "裝置 7-3"
 			description: [
-				"...and further, into the perfect base for our first Mechanism."
+				"...再進一步，成為我們第一個構件的完美基礎。"
 				""
-				"Note: before the machine starts showering you with random furniture, place a wooden slab in the filter slot of the Mechanical Saw."
+				"注意： 在機器開始把你的木材切製成隨機的家具以前，趕緊將動力鋸的配方過濾器目標設置成木半磚。"
 			]
 			dependencies: ["19921941321965A4"]
 			id: "59E4A6163753BC12"
@@ -397,7 +397,7 @@
 				{
 					id: "23030B6D0072EBE8"
 					type: "item"
-					title: "Any Wooden Slab"
+					title: "任意種類的木半磚"
 					icon: "minecraft:oak_slab"
 					item: {
 						id: "itemfilters:tag"
@@ -411,17 +411,17 @@
 				{
 					id: "59B260F52722A1FE"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Algaesite Mixer"
+			title: "海藻 x 安山"
 			icon: "create:andesite_alloy"
 			x: 3.5d
 			y: 5.0d
-			subtitle: "Contraption 6-4"
-			description: ["In another Mix! This time it'll be the bricks and your surfaced Andesite Cobblestone."]
+			subtitle: "裝置 6-4"
+			description: ["另一套攪拌系統！這次我們要把剛出爐的海藻磚頭跟浮出水面的安山岩鵝卵石給混合在一塊。"]
 			dependencies: [
 				"106C6DFDCB97327C"
 				"32786E9D145FFE25"
@@ -437,17 +437,17 @@
 				{
 					id: "6AA98FC4680D6521"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Algae Cooker"
+			title: "烹飪海藻"
 			icon: "architects_palette:algal_brick"
 			x: 4.5d
 			y: 4.5d
-			subtitle: "Contraption 6-3"
-			description: ["Smelt the Algal blend into bricks. While a Furnace works great, an Encased Fan can do it without the need of Fuel."]
+			subtitle: "裝置 6-3"
+			description: ["將海藻混合物融煉成磚頭。雖然熔爐也做的到這點，但不會消耗任何燃料的鼓風機更加的吸引人。"]
 			dependencies: ["72BE175C83834838"]
 			id: "32786E9D145FFE25"
 			tasks: [
@@ -460,17 +460,17 @@
 				{
 					id: "1484A9A6DB85EA6D"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Deploy, Deploy, Deploy."
+			title: "部屬、分配、組裝"
 			icon: "kubejs:kinetic_mechanism"
 			x: 2.0d
 			y: 6.5d
-			subtitle: "Contraption 8"
-			description: ["Bringing together Andesite Alloy and cut planks using a row of Deployers concludes your first Assembly Line."]
+			subtitle: "裝置 8"
+			description: ["使用一排機械手將安山合金和切割好的木半磚給組裝起來，這就是屬於你的第一條流水線！"]
 			dependencies: [
 				"59E4A6163753BC12"
 				"73FCA432DEFC1DED"
@@ -487,12 +487,12 @@
 				{
 					id: "34C54664AB22ECFD"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Arming the Deployer"
+			title: "機械手的裝備"
 			icon: {
 				id: "cb_microblock:stone_saw"
 				Count: 1b
@@ -504,8 +504,8 @@
 			y: 6.5d
 			shape: "circle"
 			description: [
-				"It'll be good to stock up on a couple of saws for the Mechanism Assembly."
-				"However, they are not nearly consumed as quickly as something that would require an automated supply."
+				"最好是為序列組裝流水線準備個幾把鋸子。"
+				"然而，它們的消耗速度，並沒有比需要自動化供應的某些東西還來的快。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -516,7 +516,7 @@
 			tasks: [{
 				id: "52A4AF128B571664"
 				type: "item"
-				title: "Any Saw"
+				title: "任意種類的手鋸"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -528,17 +528,17 @@
 			}]
 		}
 		{
-			title: "Chapter 1 Start!"
+			title: "章節 1 啟程！"
 			icon: "create:wrench"
 			x: 2.0d
 			y: -1.0d
 			shape: "hexagon"
 			description: [
-				"Welcome to the Factory Guide!"
+				"歡迎來到工廠指南！"
 				""
-				"These Quests are an Automation Plan for your upcoming Assembly Line. Always view them as recommendations on what you should construct a passive supply for. The flowgraph depicts the connections between relevant recipes/processing."
+				"這些任務是為你即將到來的流水線所制定的自動化計劃。請總是將它視為你應該如何製造被動收入的建議。透過流程圖，你可以清楚了解各種材料之間的配方關係。"
 				""
-				"Happy engineering!"
+				"祝工程愉快！"
 			]
 			dependencies: ["5A8DF2D8553904BF"]
 			hide: true
@@ -555,15 +555,15 @@
 			}]
 		}
 		{
-			title: "Chapter 1 Complete!"
+			title: "章節 1 通關！"
 			x: 2.0d
 			y: 8.5d
 			shape: "hexagon"
 			description: [
-				"Congrats! Now you have a passive supply of Kinetic Mechanisms. This is bound to change the pace a bit."
+				"恭喜！現在就算你蹲在廁所，還是在睡覺，動力構件仍然會持續穩定地供應。這勢必會對遊戲步調產生一點影響。"
 				""
-				"Before moving on, check back through your factory and search for any major bottlenecks."
-				"It'd be a shame if a really efficient andesite generator is held back only by the sand not coming in quickly enough."
+				"在你朝下一章邁進之前，或許回過頭檢查工廠有遇到什麼瓶頸，會是一個不錯的選擇。"
+				"如果一個高效的安山岩採石場，被沙子的生產速度給拖累到整個流水線的產能，那就實在是太可惜了。"
 			]
 			dependencies: ["675C395B2074C24C"]
 			size: 2.0d
@@ -596,13 +596,13 @@
 			]
 		}
 		{
-			title: "Ah wait, don't chop"
+			title: "等一等，別急著伐木"
 			icon: "thermal:resin_bucket"
 			x: 0.0d
 			y: 10.0d
 			shape: "square"
-			subtitle: "Contraption 9-1"
-			description: ["Liquid resin can be extracted from healthy Trees using Arboreal Extractors. The more the merrier."]
+			subtitle: "裝置 9-1"
+			description: ["可以利用樹木提取器從健康的樹木中抽取液態樹脂。越多越好！"]
 			dependencies: [
 				"3F45DFEF31838A00"
 				"681DACF11F193771"
@@ -620,17 +620,17 @@
 				{
 					id: "29BEB0A31C3FB00B"
 					type: "checkmark"
-					title: "Automated (Resin)"
+					title: "已自動化 （樹脂）"
 				}
 			]
 		}
 		{
-			title: "Rubber Stamper"
+			title: "橡膠壓印機"
 			icon: "thermal:rubber"
 			x: 1.0d
 			y: 10.5d
-			subtitle: "Contraption 9-2"
-			description: ["Gather the resin via a network of Fluid Pipes and use a Basin-Press to solidify it."]
+			subtitle: "裝置 9-2"
+			description: ["利用液體管道集中樹脂到工作盆中，並利用輥壓機將其凝固。"]
 			dependencies: ["3728DF562D6DCE3A"]
 			id: "3EF5F89DBD6959E3"
 			tasks: [
@@ -643,21 +643,21 @@
 				{
 					id: "5BBF2E1143CD356E"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "Curing by Flame"
+			title: "火焰硬化"
 			icon: "thermal:cured_rubber"
 			x: 2.0d
 			y: 11.0d
 			shape: "square"
-			subtitle: "Contraption 9-3"
+			subtitle: "裝置 9-3"
 			description: [
-				"Finally, smelt the raw rubber into its cured state."
+				"最後，將生橡膠給熔煉成硫化狀態。"
 				""
-				"Bon Appétit!"
+				"請好好享用！"
 			]
 			dependencies: ["3EF5F89DBD6959E3"]
 			id: "29D37095C73B3DEC"
@@ -671,16 +671,16 @@
 				{
 					id: "17286271B0667AAA"
 					type: "checkmark"
-					title: "Automated"
+					title: "已自動化"
 				}
 			]
 		}
 		{
-			title: "All Sealed Up"
+			title: "把一切給密封起來"
 			x: 3.5d
 			y: 11.5d
 			shape: "circle"
-			description: ["From here it's really no hassle to do things manually. If you must, you can always come back with some Mechanical Crafters later on."]
+			description: ["到這裡，所需的勞動已經不算麻煩了。如果你非得要堅持全自動化，你可以在稍後將一些動力合成器給帶回來。"]
 			dependencies: ["29D37095C73B3DEC"]
 			id: "6545C3F427B12106"
 			tasks: [{
@@ -691,11 +691,11 @@
 			}]
 		}
 		{
-			title: "Bonus 1A Complete!"
+			title: "支線章節 1A 通關！"
 			x: 2.0d
 			y: 13.0d
 			shape: "hexagon"
-			description: ["Congrats! Now you have a good supply of Sealed Mechanisms. Your future self will thank you."]
+			description: ["恭喜！現在你算是有了穩定的密封構件供應鏈。你未來會非常感謝你自己的。"]
 			dependencies: ["6545C3F427B12106"]
 			size: 2.0d
 			id: "0E0535849D8D9279"
@@ -733,9 +733,9 @@
 			y: -1.0d
 			shape: "circle"
 			description: [
-				"The rigid flowgraph of this guide may suggest that items aren't accessible until they have been automated."
+				"本指南的流程圖，可能暗示著物品直在自動化之前是無法輕易取得的。"
 				""
-				"Be reassured that you already have access to tools from later ages, such as filtering- though not without a bit of manual effort."
+				"請放心，你還是可以使用到其它時代的物品，像是過濾系統- 雖然可能要付出相當龐大的勞動力。"
 			]
 			dependencies: ["5799D55BB26BA52C"]
 			id: "6892AE55581393C6"

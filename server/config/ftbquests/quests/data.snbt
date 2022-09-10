@@ -1,6 +1,6 @@
 {
 	version: 13
-	title: "&6 Above &f\\&&6 Beyond"
+	title: "&6機械動力&f： &6飛越天際"
 	icon: "kubejs:abstruse_mechanism"
 	disable_toast: true
 	default_reward_team: true
