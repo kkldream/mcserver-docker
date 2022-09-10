@@ -10,15 +10,23 @@ RUN apt install -y openssh-server && \
     echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 EXPOSE 22
 
-# Java 17
-RUN wget https://download.oracle.com/java/17/archive/jdk-17.0.4_linux-x64_bin.tar.gz && \
-    tar zxvf jdk-17.0.4_linux-x64_bin.tar.gz && \
-    rm jdk-17.0.4_linux-x64_bin.tar.gz && \
-    echo "export JAVA_HOME=/jdk-17.0.4" >> ~/.bashrc && \
-    echo "export PATH=$PATH:/jdk-17.0.4/bin" >> ~/.bashrc
+# Java 1.8.0_301
+ADD jdk-8u301-linux-x64.tar.gz .
+RUN echo "export JAVA_HOME=/jdk1.8.0_301" >> ~/.bashrc && \
+    echo "export PATH=$PATH:/jdk1.8.0_301/bin" >> ~/.bashrc
 
 # Tools
 RUN apt install -y nano net-tools iputils-ping screen
+
+# CAB
+COPY server /root/server
+VOLUME [ \
+    "/root/server/world", \
+    "/root/server/server.properties", \
+    "/root/server/logs", \
+    "/root/server/backups" \
+]
+EXPOSE 25565
 
 # Startup
 COPY ./startup.sh /root/startup.sh

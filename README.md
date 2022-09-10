@@ -1,37 +1,58 @@
-# Ubuntu 18.04 + Java 17
+# Create: Above and Beyond v1.3
 
-## 環境
-
-* Ubuntu 18.04
-* Java 17.0.4
-
-```log
-root@c7169d525d6f:/# java -version
-java version "17.0.4" 2022-07-19 LTS
-Java(TM) SE Runtime Environment (build 17.0.4+11-LTS-179)
-Java HotSpot(TM) 64-Bit Server VM (build 17.0.4+11-LTS-179, mixed mode, sharing)
-```
+整合包介紹：https://www.mcmod.cn/modpack/312.html
 
 ## 執行容器
 
-```sh
-docker run --rm --name java17 -it -p 20022:22 kkldream/mcserver:java17
+需再專案目錄下執行
+
+Windows:  
+```cmd
+docker run --name cab -d -it -p 20065:22 -p 25565:25565 ^
+    -v %cd%/data/world:/root/server/world ^
+    -v %cd%/data/server.properties:/root/server/server.properties ^
+    -v %cd%/data/logs:/root/server/logs ^
+    -v %cd%/data/backups:/root/server/backups ^
+    kkldream/mcserver:cab1.3
 ```
+
+Linux:  
+```sh
+docker run --name cab -d -it -p 20065:22 -p 25565:25565 \
+    -v $PWD/data/world:/root/server/world \
+    -v $PWD/data/server.properties:/root/server/server.properties \
+    -v $PWD/data/logs:/root/server/logs \
+    -v $PWD/data/backups:/root/server/backups \
+    kkldream/mcserver:cab1.3
+```
+
+路徑說明:
+
+* /root/server/world : 世界地圖資源
+* /root/server/backups : 世界地圖資源備份
+* /root/server/server.properties : 伺服器設定檔
+* /root/server/logs : 伺服器日誌
 
 ## 進入容器
 
 從終端機:  
 ```sh
-docker exec -it java17 bash
+docker exec -it cab screen -r
 ```
 
+從SSH:  
+```sh
+screen -r
+```
 
-從SSH連入:    
-* 帳號: root
-* 密碼: password
+退出:  
+按`Ctrl+C`會直接關閉Server，需退出直接關閉終端或按`Ctrl+A+D`再關閉終端。
 
 ## 自行編譯
 
+先下載`jdk-8u301-linux-x64.tar.gz`至根目錄：  
+[Java SE Development Kit 8u301 Download](https://www.oracle.com/tw/java/technologies/javase/javase8u211-later-archive-downloads.html#:~:text=8u301%2Dlinux%2Dx64.rpm-,Linux%20x64%20Compressed%20Archive,jdk%2D8u301%2Dlinux%2Dx64.tar.gz,-macOS%20x64%20DMG%20Installer)
+
 ```cmd
-docker build -t kkldream/mcserver:java17 .
+docker build -t kkldream/mcserver:cab1.3 .
 ```

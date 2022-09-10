@@ -1,4 +1,5 @@
 /local
-/data/world
-/data/logs
-/data/backups
+/data/cab/world
+/data/cab/logs
+/data/cab/backups
+jdk-8u301-linux-x64.tar.gz
