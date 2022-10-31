@@ -10,6 +10,7 @@ port=$2
 echo version = $version
 echo port = $port
 mkdir -p data/$version/world data/$version/logs
+cp data/server.properties data/$version/server.properties
 docker run \
     -itd \
     -v $(pwd)/data/$version/world:/root/server/world \
