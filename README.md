@@ -10,6 +10,8 @@ Example：
 ./run.sh 1.12.2 25565
 ```
 
+Docker Hub：https://hub.docker.com/r/kkldream/mcserver
+
 Path：
 
 * `/root/server/world`：世界地圖資源
