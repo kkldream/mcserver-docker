@@ -1,14 +1,8 @@
 FROM ubuntu:18.04
 
+# Tools
 RUN apt update
-
-# SSH
-RUN apt install -y openssh-server && \
-    echo 'root:password' | chpasswd && \
-    echo "Port 22" >> /etc/ssh/sshd_config && \
-    echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config && \
-    echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
-EXPOSE 22
+RUN apt install -y nano net-tools iputils-ping screen wget
 
 # Java 17
 RUN wget https://download.oracle.com/java/17/archive/jdk-17.0.4_linux-x64_bin.tar.gz && \
@@ -17,9 +11,14 @@ RUN wget https://download.oracle.com/java/17/archive/jdk-17.0.4_linux-x64_bin.ta
     echo "export JAVA_HOME=/jdk-17.0.4" >> ~/.bashrc && \
     echo "export PATH=$PATH:/jdk-17.0.4/bin" >> ~/.bashrc
 
-# Tools
-RUN apt install -y nano net-tools iputils-ping screen
+# MC Server
+ENV MC_SERVER_VERSION=1.12.2
+WORKDIR /root/server
+COPY server .
+VOLUME [ \
+    "/root/server/world", \
+    "/root/server/server.properties", \
+    "/root/server/logs" ]
+EXPOSE 25565
 
-# Startup
-COPY ./startup.sh /root/startup.sh
-CMD ["sh", "/root/startup.sh"]
+CMD ["sh", "./startup.sh"]
