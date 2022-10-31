@@ -1,4 +1,3 @@
-/local
-/data/world
-/data/logs
-/data/backups
+/data/*/world
+/data/*/logs
+/data/*/backups

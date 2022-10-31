@@ -1,21 +1,12 @@
 FROM ubuntu:18.04
 
+# Tools
 RUN apt update
-
-# SSH
-RUN apt install -y openssh-server && \
-    echo 'root:password' | chpasswd && \
-    echo "Port 22" >> /etc/ssh/sshd_config && \
-    echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config && \
-    echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
-EXPOSE 22
+RUN apt install -y nano net-tools iputils-ping screen wget
 
 # Java 8
-RUN apt install -y openjdk-8-jdk
+ADD jdk-8u351-linux-x64.tar.gz .
+RUN echo "export JAVA_HOME=/jdk1.8.0_351" >> ~/.bashrc && \
+    echo "export PATH=$PATH:/jdk1.8.0_351/bin" >> ~/.bashrc
 
-# Tools
-RUN apt install -y nano net-tools iputils-ping screen
-
-# Startup
-COPY ./startup.sh /root/startup.sh
-CMD ["sh", "/root/startup.sh"]
+CMD ["bash"]

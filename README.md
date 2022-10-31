@@ -1,35 +1,19 @@
 # Ubuntu 18.04 + Java 8
 
-## 環境
+### 環境
 
 * Ubuntu 18.04
-* Java 1.8.0_312
+* Java 1.8.0_351
 
-```log
-root@3140ed9d8c23:/# java -version
-openjdk version "1.8.0_312"
-OpenJDK Runtime Environment (build 1.8.0_312-8u312-b07-0ubuntu1~18.04-b07)
-OpenJDK 64-Bit Server VM (build 25.312-b07, mixed mode)
-```
-
-## 執行容器
+### 執行容器
 
 ```sh
-docker run --rm --name java8 -it -p 20022:22 kkldream/mcserver:java8
+docker run --rm -it --name java8 kkldream/mcserver:java8
 ```
 
-## 進入容器
+### 自行編譯
 
-從終端機:  
-```sh
-docker exec -it java8 bash
-```
-
-從SSH連入:    
-* 帳號: root
-* 密碼: password
-
-## 自行編譯
+先下載jdk8包：[https://www.oracle.com/java/technologies/downloads/](https://www.oracle.com/java/technologies/downloads/#:~:text=linux%2Dx64.rpm-,x64%20Compressed%20Archive,jdk%2D8u351%2Dlinux%2Dx64.tar.gz,-Documentation%20Download)
 
 ```cmd
 docker build -t kkldream/mcserver:java8 .
