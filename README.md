@@ -1,17 +1,19 @@
-# Minecraft-Server-On-Docker
+# MC Server
 
-Docker Hub : https://hub.docker.com/r/kkldream/mcserver
+Usage： 
+```sh
+./run.sh [VERSION] [PORT]
+```
 
-## Java環境
+Example： 
+```sh
+./run.sh 1.12.2 25565
+```
 
-* [Java 8](https://github.com/kkldream/mcserver-docker/tree/java8)
-* [Java 17](https://github.com/kkldream/mcserver-docker/tree/java17)
+Docker Hub：https://hub.docker.com/r/kkldream/mcserver
 
-## 一般伺服器
+Path：
 
-* [1.19.1](https://github.com/kkldream/mcserver-docker/tree/1.19.1)
-* [1.19.2](https://github.com/kkldream/mcserver-docker/tree/1.19.2)
-
-## 整合包伺服器
-
-* [Create: Above and Beyond v1.3](https://github.com/kkldream/mcserver-docker/tree/cab)
+* `/root/server/world`：世界地圖資源
+* `/root/server/server.properties`：伺服器設定檔
+* `/root/server/logs`：伺服器日誌
