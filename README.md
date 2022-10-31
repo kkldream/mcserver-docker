@@ -12,6 +12,18 @@
 ./run.sh 1.12.2 25565
 ```
 
+### Exec：
+
+```sh
+docker exec -it [NAME] screen -r
+```
+
+### Remove：
+
+```sh
+docker rm -vf [NAME]
+```
+
 ### Docker Hub：
 
 https://hub.docker.com/r/kkldream/mcserver
